@@ -1,0 +1,30 @@
+---
+title: blog
+
+layout: 'layout.liquid'
+---
+
+<article class="-card-1-3-parent">
+
+    {% for page in collections.pages %}
+
+        <div class="-card-1 bg-s-t1a3"> 
+
+
+            <img class="-card-image-1" src="{{page.data.img}}">
+
+            <h4 class="text-b-t1l1a1 ">
+                <a href="{{ page.url | url }}">
+                    {{ page.data.title }}
+                </a>
+            </h4>
+   
+
+            
+        </div> 
+
+  {% endfor %}
+
+
+</article>
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/tailwind/index.css">
+  
+   <link rel="stylesheet" href="./prismJS/prismSolarizedLight.css">
+
+
+  <script src="/js/main.bundle.js" defer></script>
+
+
+
+
+  <title>{{ title }}</title>
+  {% block head %}{% endblock %}
+
+</head>
+
+
+
+
+<body  class="relative bg-s-t1a1 text-l1-a1  -p">
+
+
+<!-- Dark Mode Toggle -->
+<div id="dark-mode-toggle" class="absolute top-2 right-2  -btn-scale-down" title="Switch Theme">
+
+    {% render './Svg/darkModeSvg.liquid' %}
+
+</div>
+
+
+<div class="flex flex-col justify-between min-h-screen">
+
+    <div>
+        {% render 'header.liquid' %}
+
+
+        
+
+
+        <main>{{content | safe}}</main>
+        
+
+
+    </div>
+
+
+    <div>
+
+        {% render 'footer.liquid' %}
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+<!-- Javascript -->
+{% render './JS/darkModeJS.liquid' %}
+
+
+
+   
+
+</body>
+</html>
