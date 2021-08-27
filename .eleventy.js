@@ -52,8 +52,8 @@ config.setDataDeepMerge(true);
 
 // copy file from src to dist
 
-config.addPassthroughCopy({ "src/assets": "assets" });
-
+config.addPassthroughCopy( "src/assets");
+config.addPassthroughCopy( "src/admin");
 
 
   // input, output folder

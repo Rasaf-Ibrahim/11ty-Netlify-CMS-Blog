@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "dist/assets/image"
+public_folder: "/assets/image"
+
+
+collections:
+  - name: "pages" 
+    label: "Page" 
+    folder: "src/pages" 
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", default: "pages"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Article", name: "article", widget: "markdown"}
