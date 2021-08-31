@@ -18,10 +18,10 @@ collections:
     slug: "{{slug}}" 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Date", name: "date", widget: "dateTime"}
+      - {label: "Author", name: "author", widget: "string", default: "Rasaf Ibrahim"}
+      - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "img", widget: "image"}
-      - {label: "Image Alt", name: "imgAlt", widget: "string"}
+      - {label: "Image Alt", name: "imgAlt", widget: "string" default: "Blog Post's Image"}
       - {label: "Content", name: "description", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list", default: "posts"}
 
