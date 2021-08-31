@@ -4,27 +4,56 @@ title: blog
 layout: 'layout.liquid'
 ---
 
-<article class="-card-1-3-parent">
+<div class="-card-layout-1-3-wrapper">
 
-    {% for page in collections.pages %}
+    <div class="-card-layout-1-3">
+    
+        {% for post in collections.posts reversed %}
+    
+            <div class="-card-1-3 p-2 space-y-4 bg-s-t1a3 "> 
+    
+                
+                <img class="-card-img-1-3" src="{{post.data.img}}  alt="{{post.data.imgAlt}}">
+               
+    
+                <p class="font-semibold">
+                    <a href="{{ post.url }}">
+                        {{ post.data.title  }}
+                    </a>
+                </p>
 
-        <div class="-card-1 bg-s-t1a3"> 
 
+                <h5 class="text-l1-a2">
+                 
+                    {{ post.data.date | date: " %b %d, %Y"}}
+                       
+                </h5>
 
-            <img class="-card-image-1" src="{{page.data.img}}">
+               <p>    {{ post.data.description | truncate: 50}}
+            </p>
+            
 
-            <h4 class="text-b-t1l1a1 ">
-                <a href="{{ page.url | url }}">
-                    {{ page.data.title }}
-                </a>
-            </h4>
-   
 
             
-        </div> 
 
-  {% endfor %}
+              
+              
+              
+       
+       
+            </div> 
+    
+      {% endfor %}
+    
+    
+    </div>
+    
+ </div>   
+    
+    
+    
+    
 
 
-</article>
+
 

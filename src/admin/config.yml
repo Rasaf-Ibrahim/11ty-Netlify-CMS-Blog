@@ -11,21 +11,24 @@ public_folder: "/assets/image"
 
 
 collections:
-  - name: "pages" 
-    label: "Page" 
-    folder: "src/pages" 
+  - name: "posts" 
+    label: "Post" 
+    folder: "src/posts" 
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+    slug: "{{slug}}" 
+    fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list", default: "pages"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Date", name: "date", widget: "dateTime"}
       - {label: "Image", name: "img", widget: "image"}
-      - {label: "Article", name: "body", widget: "markdown"}
+      - {label: "Image Alt", name: "imgAlt", widget: "string"}
+      - {label: "Content", name: "description", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list", default: "posts"}
 
 
-  - name: "imageLink" 
-    label: "Image Link" 
-    folder: "src/imageLink"
+  - name: "slideshow" 
+    label: "Slideshow" 
+    folder: "src/slideshow"
     create: true
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter

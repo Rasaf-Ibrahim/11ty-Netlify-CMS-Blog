@@ -5,4 +5,8 @@
 /* card */
 @import './card/_card.css';
 
+/* post(blog) */
+
+@import './post/_post.css';
+
 

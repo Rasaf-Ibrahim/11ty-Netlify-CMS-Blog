@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&family=Lobster+Two&family=Kaushan+Script&family=Yatra+One&family=Train+One&family=Indie+Flower&family=Atma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&family=Lobster+Two&family=Kaushan+Script&family=Yatra+One&family=Train+One&family=Indie+Flower&family=Atma&display=swap');
 
 /* google fonts */
 
@@ -15,6 +15,8 @@ Dark Deep Green  100,33%,8%
 /*button*/
 
 /* card */
+
+/* post(blog) */
 
 /* animation */
 
@@ -278,6 +280,24 @@ div.code-toolbar > .toolbar > .toolbar-item > span:hover,
 div.code-toolbar > .toolbar > .toolbar-item > span:focus {
   color: inherit;
   text-decoration: none;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }
 
 /* tailwind css */
@@ -1452,7 +1472,7 @@ p{
   height: 2rem;
 }
 
-.h-56{
+.h-\[14rem\]{
   height: 14rem;
 }
 
@@ -1484,8 +1504,12 @@ p{
   max-width: 20rem;
 }
 
-.max-w-20rem{
+.max-w-\[20rem\]{
   max-width: 20rem;
+}
+
+.max-w-\[90\%\]{
+  max-width: 90%;
 }
 
 .max-w-90\%{
@@ -1537,10 +1561,22 @@ p{
   gap: 1rem;
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
 .space-y-8 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .rounded{
@@ -1621,16 +1657,16 @@ p{
      object-position: center;
 }
 
+.p-2{
+  padding: 0.5rem;
+}
+
 .p-8{
   padding: 2rem;
 }
 
 .p-4{
   padding: 1rem;
-}
-
-.p-2{
-  padding: 0.5rem;
 }
 
 .py-8{
@@ -1664,6 +1700,10 @@ p{
 
 .text-center{
   text-align: center;
+}
+
+.font-mono{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-5xl{
@@ -1720,6 +1760,22 @@ p{
   font-weight: 600;
 }
 
+.font-extralight{
+  font-weight: 200;
+}
+
+.font-light{
+  font-weight: 300;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.font-medium{
+  font-weight: 500;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
@@ -1769,10 +1825,6 @@ p{
   color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
 
-.text-b-t1l1a1{
-  color: var(--brand-type-1-layer-1-alpha-1);
-}
-
 .text-l1-a1{
   color: var(--layer-1-alpha-1);
 }
@@ -1815,6 +1867,10 @@ p{
 
 .text-s-t2a5{
   color: var(--surface-type-2-alpha-5);
+}
+
+.text-b-t1l1a1{
+  color: var(--brand-type-1-layer-1-alpha-1);
 }
 
 .text-b-t1l1a2{
@@ -2132,28 +2188,7 @@ p{
   transform: var(--tw-transform);
 }
 
-/* The following class's max-width is 20rem.
-You can make more class like this just by changing the max-weight size. */
-
-.-card-1{
-  max-width: 20rem;
-  border-radius: 0.75rem;
-  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-/* When you choose 'card-1_r' class, choose 'card-image-1_r' class. Similarly when you choose 'card-2_r', choose 'card-image-2_r' and so on.  */
-
-.-card-image-1{
-  height: 14rem;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-/* 1 card on mobile and 3 cards on s-lg in a row */
-
-.-card-1-3-parent{
+.-card-layout-1-3{
   margin-left: 1rem;
   margin-right: 1rem;
   display: grid;
@@ -2162,41 +2197,259 @@ You can make more class like this just by changing the max-weight size. */
 }
 
 @media (min-width: 688px){
-  .-card-1-3-parent{
+  .-card-layout-1-3{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 1024px){
-  .-card-1-3-parent{
+  .-card-layout-1-3{
     margin-left: 2rem;
     margin-right: 2rem;
   }
 
-  .-card-1-3-parent{
+  .-card-layout-1-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .-card-1-3-parent{
+  .-card-layout-1-3{
     gap: 2rem;
   }
 }
 
 @media (min-width: 1360px){
-  .-card-1-3-parent{
+  .-card-layout-1-3{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 1696px){
-  .-card-1-3-parent{
+  .-card-layout-1-3{
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
 
-.-card-1-3-grand-parent{
+.-card-layout-1-3-wrapper{
   display: flex;
   justify-content: center;
+}
+
+.-card-1-3{
+  max-width: 20rem;
+  border-radius: 0.75rem;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.-card-img-1-3{
+  height: 14rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.-post-wrapper-sm{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+
+@media (min-width: 688px){
+  .-post-wrapper-sm{
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1024px){
+  .-post-wrapper-sm{
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1360px){
+  .-post-wrapper-sm{
+    max-width: 60%;
+  }
+}
+
+.-post-wrapper-md{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+
+@media (min-width: 688px){
+  .-post-wrapper-md{
+    max-width: 83%;
+  }
+}
+
+@media (min-width: 1024px){
+  .-post-wrapper-md{
+    max-width: 76%;
+  }
+}
+
+@media (min-width: 1360px){
+  .-post-wrapper-md{
+    max-width: 69%;
+  }
+}
+
+.-post-wrapper-lg{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+
+@media (min-width: 688px){
+  .-post-wrapper-lg{
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 1024px){
+  .-post-wrapper-lg{
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1360px){
+  .-post-wrapper-lg{
+    max-width: 75%;
+  }
+}
+
+.-post-img-wrapper-sm{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20rem;
+  border-radius: 0.75rem;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 688px){
+  .-post-img-wrapper-sm{
+    max-width: 24rem;
+  }
+}
+
+@media (min-width: 1024px){
+  @media (min-width: 688px){
+    .-post-img-wrapper-sm{
+      max-width: 28rem;
+    }
+  }
+}
+
+@media (min-width: 1360px){
+  @media (min-width: 688px){
+    .-post-img-wrapper-sm{
+      max-width: 32rem;
+    }
+  }
+}
+
+.-post-img-wrapper-md{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20rem;
+  border-radius: 0.75rem;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 688px){
+  .-post-img-wrapper-md{
+    max-width: 25rem;
+  }
+}
+
+@media (min-width: 1024px){
+  @media (min-width: 688px){
+    .-post-img-wrapper-md{
+      max-width: 29rem;
+    }
+  }
+}
+
+@media (min-width: 1360px){
+  @media (min-width: 688px){
+    .-post-img-wrapper-md{
+      max-width: 33rem;
+    }
+  }
+}
+
+.-post-img-wrapper-lg{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20rem;
+  border-radius: 0.75rem;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 688px){
+  .-post-img-wrapper-lg{
+    max-width: 26rem;
+  }
+}
+
+@media (min-width: 1024px){
+  @media (min-width: 688px){
+    .-post-img-wrapper-lg{
+      max-width: 30rem;
+    }
+  }
+}
+
+@media (min-width: 1360px){
+  @media (min-width: 688px){
+    .-post-img-wrapper-lg{
+      max-width: 34rem;
+    }
+  }
+}
+
+.-post-img-sm{
+  height: 14rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 688px){
+  .-post-img-sm{
+    height: 16rem;
+  }
+}
+
+.-post-img-md{
+  height: 14rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 688px){
+  .-post-img-md{
+    height: 17rem;
+  }
+}
+
+.-post-img-lg{
+  height: 14rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 688px){
+  .-post-img-lg{
+    height: 18rem;
+  }
 }
 
 .-fade-in {
@@ -2749,6 +3002,136 @@ You can make more class like this just by changing the max-weight size. */
   transform: rotateY(180deg);
 }
 
+/* The following class's max-width is 20rem.
+You can make more class like this just by changing the max-weight size. */
+
+.-card-1{
+  max-width: 20rem;
+  border-radius: 0.75rem;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.-card-2{
+  max-width: 20rem;
+  border-radius: 0.75rem;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 688px){
+  .-card-2{
+    max-width: 22rem;
+  }
+}
+
+@media (min-width: 1024px){
+  @media (min-width: 688px){
+    .-card-2{
+      max-width: 24rem;
+    }
+  }
+}
+
+.-blog-1{
+  max-width: 20rem;
+  border-radius: 0.75rem;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 688px){
+  .-blog-1{
+    max-width: 24rem;
+  }
+}
+
+@media (min-width: 1024px){
+  @media (min-width: 688px){
+    .-blog-1{
+      max-width: 28rem;
+    }
+  }
+}
+
+@media (min-width: 1360px){
+  @media (min-width: 688px){
+    .-blog-1{
+      max-width: 32rem;
+    }
+  }
+}
+
+/* When you choose 'card-1_r' class, choose 'card-image-1_r' class. Similarly when you choose 'card-2_r', choose 'card-image-2_r' and so on.  */
+
+.-card-image-1{
+  height: 14rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.-blog-image-1{
+  height: 14rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 688px){
+  .-blog-image-1{
+    height: 17rem;
+  }
+}
+
+/* 1 card on mobile and 3 cards on s-lg in a row */
+
+.-card-1-3-parent{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+@media (min-width: 688px){
+  .-card-1-3-parent{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px){
+  .-card-1-3-parent{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .-card-1-3-parent{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .-card-1-3-parent{
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1360px){
+  .-card-1-3-parent{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1696px){
+  .-card-1-3-parent{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+.-card-1-3-grand-parent{
+  display: flex;
+  justify-content: center;
+}
+
 .hover\:bg-b-t1l1a1:hover{
   background-color: var(--brand-type-1-layer-1-alpha-1);
 }
@@ -2772,12 +3155,52 @@ You can make more class like this just by changing the max-weight size. */
     margin-bottom: 0px;
   }
 
+  .md\:h-\[16rem\]{
+    height: 16rem;
+  }
+
+  .md\:h-\[17rem\]{
+    height: 17rem;
+  }
+
+  .md\:h-\[18rem\]{
+    height: 18rem;
+  }
+
   .md\:w-1\/2{
     width: 50%;
   }
 
+  .md\:max-w-\[24rem\]{
+    max-width: 24rem;
+  }
+
+  .md\:max-w-\[25rem\]{
+    max-width: 25rem;
+  }
+
+  .md\:max-w-\[26rem\]{
+    max-width: 26rem;
+  }
+
+  .md\:max-w-\[80\%\]{
+    max-width: 80%;
+  }
+
+  .md\:max-w-\[83\%\]{
+    max-width: 83%;
+  }
+
+  .md\:max-w-\[85\%\]{
+    max-width: 85%;
+  }
+
   .md\:max-w-75\%{
     max-width: 75%;
+  }
+
+  .md\:max-w-\[22rem\]{
+    max-width: 22rem;
   }
 
   .md\:grid-cols-2{
@@ -2848,6 +3271,18 @@ You can make more class like this just by changing the max-weight size. */
 
   .lg\:max-w-lg{
     max-width: 32rem;
+  }
+
+  .lg\:max-w-\[70\%\]{
+    max-width: 70%;
+  }
+
+  .lg\:max-w-\[76\%\]{
+    max-width: 76%;
+  }
+
+  .lg\:max-w-\[80\%\]{
+    max-width: 80%;
   }
 
   .lg\:max-w-50\%{
@@ -2960,9 +3395,45 @@ You can make more class like this just by changing the max-weight size. */
   .lg\:leading-\[1\.2\]{
     line-height: 1.2;
   }
+
+  @media (min-width: 688px){
+    .lg\:md\:max-w-\[28rem\]{
+      max-width: 28rem;
+    }
+  }
+
+  @media (min-width: 688px){
+    .lg\:md\:max-w-\[29rem\]{
+      max-width: 29rem;
+    }
+  }
+
+  @media (min-width: 688px){
+    .lg\:md\:max-w-\[30rem\]{
+      max-width: 30rem;
+    }
+  }
+
+  @media (min-width: 688px){
+    .lg\:md\:max-w-\[24rem\]{
+      max-width: 24rem;
+    }
+  }
 }
 
 @media (min-width: 1360px){
+  .xl\:max-w-\[60\%\]{
+    max-width: 60%;
+  }
+
+  .xl\:max-w-\[69\%\]{
+    max-width: 69%;
+  }
+
+  .xl\:max-w-\[75\%\]{
+    max-width: 75%;
+  }
+
   .xl\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -3005,6 +3476,24 @@ You can make more class like this just by changing the max-weight size. */
 
   .xl\:text-\[3\.125rem\]{
     font-size: 3.125rem;
+  }
+
+  @media (min-width: 688px){
+    .xl\:md\:max-w-\[32rem\]{
+      max-width: 32rem;
+    }
+  }
+
+  @media (min-width: 688px){
+    .xl\:md\:max-w-\[33rem\]{
+      max-width: 33rem;
+    }
+  }
+
+  @media (min-width: 688px){
+    .xl\:md\:max-w-\[34rem\]{
+      max-width: 34rem;
+    }
   }
 }
 

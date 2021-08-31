@@ -1,5 +1,7 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
+
+
 module.exports = (config) => {
 
 
@@ -14,8 +16,6 @@ let { Liquid } = require("liquidjs")
 	}
   
 config.setLibrary("liquid", new Liquid(options))
-
-
 
 
 // syntax highlight plugin
