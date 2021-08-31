@@ -21,8 +21,8 @@ collections:
       - {label: "Author", name: "author", widget: "string", default: "Rasaf Ibrahim"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "img", widget: "image"}
-      - {label: "Image Alt", name: "imgAlt", widget: "string" default: "Blog Post's Image"}
-      - {label: "Content", name: "description", widget: "markdown"}
+      - {label: "Image Alt", name: "imgAlt", widget: "string", default: "Blog Post's Image"}
+      - {label: "Article", name: "article", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list", default: "posts"}
 
 
