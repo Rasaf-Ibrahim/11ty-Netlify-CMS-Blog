@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon-->
+  <link rel="icon" type="image/svg" href="/assets/favicon/favicon.svg">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/tailwind/index.css">
+
+  <!-- JavaScript -->
+  <script src="/js/main.bundle.js" defer></script>
+
+
+  <!-- netlify cms -->
+  <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+
+
+  <!-- Swiper -->
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+  
+
+
+  <title>Page 3</title>
+  
+
+
+
+</head>
+
+
+
+
+<body  class="relative  bg-s-t1a1 text-l1-a1 font-mono -p">
+
+
+<div class="flex flex-col justify-between min-h-screen">
+
+    <div>
+        <!-- 
+Design plan:
+
+In mobile, 
+hamburger menu button - col-span-1
+logo & title - col-span-10
+dark mode button - col-span-1
+
+In laptop,
+logo & title - col-span-3
+navigation items - col-span-8
+dark mode button - col-span-1
+
+-->
+
+
+
+<nav class="py-4 px-1 mb-4 bg-s-t1a3 shadow-lg ">
+
+
+    <!-- Wrapper (Everything but the mobile navigation items) -->
+    <div class="grid grid-cols-12 gap-[1rem]">  
+
+
+        <!-- Hamburger menu button (Hidden in laptop) -->
+        <div class="lg:hidden col-span-1 justify-self-start">
+          <button class="js_hamburger">
+
+            <svg  class="w-6 h-6 md:w-8 md:h-8"
+style="display:inline-block" 
+fill="none" 
+stroke="currentColor" 
+stroke-width="2"
+stroke-linecap="round"
+stroke-linejoin="round"
+viewBox="0 0 24 24">
+<path   d="M4 6h16M4 12h16M4 18h16" />
+</svg>
+
+ 
+      
+          </button>
+        </div>
+    
+    
+        <!-- Logo & Title -->
+        <div class="col-span-10 lg:col-span-3 justify-self-center   font-cursive-3"> 
+        
+            
+<svg  class="w-6 h-6 md:w-8 md:h-8"
+
+style="display:inline-block"
+fill="none"
+stroke="currentColor"
+viewBox="0 0 21.864 21.864"
+>
+
+
+<path  d="M19.25,20.226c-0.256-2.426-0.202-4.775-0.966-7.026c-0.258-0.758,0.146-2.02-0.874-2.162
+		c-1.132-0.156-1.016,1.215-1.444,1.917c-0.023,0.038,0.004,0.104-0.009,0.151c-0.175,0.625-0.289,0.697-0.839,0.157
+		c-1.631-1.601-1.441-3.189,0.682-3.94c0.97-0.346,1.531-0.929,1.864-1.835c0.102-0.272,0.039-0.666,0.407-0.759
+		c1.472-0.362,0.232-0.715-0.035-0.933c-0.439-0.359-0.982-0.42-1.581-0.398c-1.627,0.062-3.259,0.048-4.887,0.007
+		C9.527,5.353,9.187,4.996,9.118,2.963C9.104,2.548,9.1,2.156,8.868,1.79C8.689,1.509,8.495,1.245,8.197,1.609
+		c-0.774,0.95-1.181,0.42-1.569-0.343C6.432,0.878,6.351,0.081,5.736,1.034c-0.185,0.291-0.518,0.08-0.715-0.236
+		C4.779,0.416,4.462,0.082,3.992,0C3.497,0.302,4.175,0.836,3.647,1.204C2.408,2.062,2.763,2.832,3.828,3.649
+		C4.254,3.975,4.66,4.154,5.133,4.322c0.182,0.065,0.303,0.38,0.398,0.603c0.109,0.259-0.108,0.428-0.296,0.373
+		c-0.909-0.277-1.093,0.44-1.583,0.931C2.257,7.62,2.165,7.802,4.019,8.456c1.209,0.426,1.185,0.999,0.753,1.896
+		c-0.205,0.427-0.357,0.824-0.04,1.29c1.123,1.635,1.079,3.619,1.525,5.447c0.416,1.704,0.979,2.011,2.408,0.915
+		c0.547-0.421,0.958-1.226,1.47,0.045c0.157,0.386,0.511,0.084,0.704-0.17c0.21-0.278,0.182-0.783,0.809-0.598
+		c1.042,0.305,1.147-0.447,1.263-1.202c0.04-0.267-0.307-0.615,0.319-0.818c1.749-0.569,3.454,0.49,3.194,2.316
+		c-0.261,1.816,0.903,2.921,1.385,4.287C18.635,21.485,16.302,19.208,19.25,20.226z"/>
+
+</svg>
+ 
+         
+
+            <a  href="/">Beauty of Bangladesh</a>
+            
+        </div>
+    
+    
+        <!-- Laptop Navigation Items (Hidden in Mobile) -->
+        <div class="hidden lg:block col-span-8 justify-self-end">
+        
+            <a class="p-2 rounded-lg hover:bg-s-t1a5 js_nav" href="/">Home</a>
+            <a class="p-2 rounded-lg hover:bg-s-t1a5 js_nav" href="/slideshow/images/   ">Images</a>
+            <a class="p-2 rounded-lg hover:bg-s-t1a5 js_nav" href="/articles/">Articles</a>
+            <a class="p-2 rounded-lg hover:bg-s-t1a5 js_nav" href="/counter/">Counter</a>
+    
+        </div> <!-- End: Laptop Navigation Items (Hidden in Mobile) -->
+    
+    
+    
+        <!-- Dark Mode Toggle -->
+        <div id="dark-mode-toggle" class="col-span-1  justify-self-end     cursor-pointer -btn-scale-down" title="Switch Theme">
+
+            <svg  class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
+
+    
+           
+    
+        </div>
+
+  </div> <!-- End: Wrapper (Everything but the mobile navigation items) -->
+
+
+
+    <!-- Mobile Navigation Items (Always Hidden) -->
+    <div class="hidden mt-[3rem]  gap-y-8px text-center js_mobile-menu" >
+
+   
+    
+        <a class="block p-2 my-2 mx-4 rounded-lg hover:bg-s-t1a5 js_nav" href="/">Home</a>
+
+        <a class="block p-2  my-2 mx-4 rounded-lg hover:bg-s-t1a5 js_nav" href="/slideshow/images/">Images</a>
+        <a class="block p-2 my-2 mx-4 rounded-lg hover:bg-s-t1a5 js_nav" href="/articles/">Articles</a>
+        <a class="block p-2 my-2 mx-4 rounded-lg  hover:bg-s-t1a5 js_nav" href="/counter/">Counter</a>
+
+
+
+    </div> <!-- End: Mobile Navigation Items (Always Hidden) -->
+
+
+
+</nav>
+
+
+
+
+
+
+
+
+
+
+<!--  Javascript for Toggling Mobile Menu Items -->
+<!--  Javascript for Toggling Mobile Menu Items -->
+
+<script>
+
+    // grab everything we need
+    const btn = document.querySelector(".js_hamburger");
+    const menu = document.querySelector(".js_mobile-menu");
+    
+    
+    // add event listeners
+    btn.addEventListener("click", () => {
+    
+    if (menu.classList.contains("hidden")) {
+      menu.classList.remove("hidden");  
+    }
+    
+    else  {
+      menu.classList.add("hidden");
+    }
+    
+    });
+    
+</script>
+    
+
+<!--  Javascript for styling Active Menu Items -->
+<!--  Javascript for styling Active Menu Items -->
+
+
+<script>
+
+    // Style the active menu item based on URL
+    
+    const currentLocation = location.href;
+    
+    const menuItem = document.querySelectorAll('.js_nav')
+    
+    const menuLength = menuItem.length
+    
+    for (let i=0; i<menuLength; i++) {
+    
+        if(menuItem[i].href === currentLocation) {
+    
+            menuItem[i].classList.add('bg-s-t1a5') 
+        }
+    }
+    
+    
+    
+    /*
+    
+    ### 11ty uses trailing slash. So, you should use trailing slash in the html otherwise the code of styling the active menu item based on URL will not work.
+    
+    
+    
+    
+    
+    
+    If you check, you will find out that 11ty uses trailing slashes! Example - 
+    
+    http://localhost:8080/blog/
+    
+    http://localhost:8080/about/
+    
+    
+    So, when you are writing html, you need to make sure that you are using trailing slashes! Example - 
+    
+    <a href="/blog/">Blog</a>
+    <a href="/about/">About</a>
+    
+    If you don't use trailing slashes in the html, like the following example:
+    
+    <a href="/blog">Blog</a>
+    <a href="/about">About</a>
+    
+    it will still work. You will be able to navigate without any problem. But you will have problem if you want to style active item. 
+    
+    
+    Suppose, you are in the blog page. If you check 'location.href' in the console, it will be: 
+    
+    'http://localhost:8080/blog/'
+    
+    
+    But if you don't use trailing slash in the html and if you check 'document.querySelectorAll('a')[i].href' for the blog page, it will be:
+    
+    'http://localhost:8080/blog'
+    
+    
+    
+    So, `location.href` and  `document.querySelectorAll('a')[i].href` will not be the same if you don't use trailing slash in the html. 
+    
+    And your code of styling the active item based on URL will not work as you need to check `document.querySelectorAll('a')[i].href === location.href` for that.
+    
+    
+    So, make sure that you are using trailing slash in the html as 11ty uses trailing slash. 
+    
+    
+    */
+    
+    
+    
+    
+    </script>
+    
+
+
+<!--  Javascript for toggling Dark & Light Mode -->
+<!--  Javascript for toggling Dark & Light Mode -->
+
+<script>
+    const darkModeToggle = document.querySelector('#dark-mode-toggle');
+    
+    const enableDarkMode = () => {
+      // 1. Add the class to the body
+      document.body.classList.add('dark');
+      // 2. Update darkMode in localStorage
+      localStorage.setItem('darkMode', 'enabled');
+    }
+    
+    const disableDarkMode = () => {
+      // 1. Remove the class from the body
+      document.body.classList.remove('dark');
+      // 2. Update darkMode in localStorage 
+      localStorage.setItem('darkMode', null);
+    }
+      
+    
+    // check for saved 'darkMode' in localStorage
+    let darkMode = localStorage.getItem('darkMode'); 
+    
+    
+    // If the user already visited and enabled darkMode
+    // start things off with it on
+    if (darkMode === 'enabled') {
+      enableDarkMode();
+    }
+    
+    // When someone clicks the button
+    darkModeToggle.addEventListener('click', () => {
+      // get their darkMode setting
+      let mode = localStorage.getItem('darkMode'); 
+      
+      // if it not current enabled, enable it
+      if (mode !== 'enabled') {
+        enableDarkMode();
+      // if it has been enabled, turn it off  
+      } else {  
+        disableDarkMode(); 
+      }
+    
+    
+    });
+    
+    
+</script>
+
+
+
+        
+
+
+        <main>
+
+
+
+
+<div class="-post-wrapper-lg space-y-8" >
+
+ 
+
+    <h4 class="font-semibold text-center">
+            Page 3
+   
+    </h4>
+
+    <h5 class="text-l1-a2 text-center">
+
+        by Rasaf Ibrahim
+      
+        on  Aug 26, 2021
+            
+     </h5>
+ 
+
+    <div class="-post-img-wrapper-lg ">
+        <img class="-post-img-lg" src="https://images.unsplash.com/photo-1629910408439-ab23292c73ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Article's Image">
+        
+
+    </div>
+
+
+    <p><p>The main education system is divided into three levels:
+Primary level (class 1–8)[6]Secondary level (9–12): There is no middle school system in Bangladesh.[7]Tertiary level
+At all levels of schooling, students can choose to receive their education in English or Bangla. Private schools tend to make use of English-based study media while government-sponsored schools use Bangla.</p>
+</p>
+
+   
+        
+
+
+</div>
+
+
+
+ 
+
+</main>
+        
+
+
+    </div>
+
+
+    <div>
+
+      <footer class="p-4 mt-4 bg-s-t1a4 shadow-lg flex justify-center">
+
+<span class="p-2 -h5 bg-s-t1a5"> 
+    &copy; <span class="js_footer"></span>
+</span>
+     
+
+
+
+</footer>
+
+
+
+<!-- Javascript -->
+
+<script>
+
+   function  hello () {
+
+let date = new window.Date();   
+
+let year = date.getFullYear();
+
+return document.querySelector('.js_footer').innerHTML = year;
+
+}
+
+hello();
+</script>
+
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+
+
+   
+
+</body>
+</html>

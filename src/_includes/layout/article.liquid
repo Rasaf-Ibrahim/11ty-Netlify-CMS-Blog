@@ -1,0 +1,49 @@
+---
+
+title: Post
+
+layout: 'layout/base.liquid'
+
+---
+
+
+
+
+
+<div class="-post-wrapper-lg space-y-8" >
+
+ 
+
+    <h4 class="font-semibold text-center">
+            {{ title }}
+   
+    </h4>
+
+    <h5 class="text-l1-a2 text-center">
+
+        by {{author}}
+      
+        on {{ date | date: " %b %d, %Y"}}
+            
+     </h5>
+ 
+
+    <div class="-post-img-wrapper-lg ">
+        <img class="-post-img-lg" src="{{img}}" alt="{{imgAlt}}">
+        
+
+    </div>
+
+
+    <p>{{content | safe}}</p>
+
+   
+        
+
+
+</div>
+
+
+
+ 
+

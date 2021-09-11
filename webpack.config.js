@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/js/main.js",
+  entry: "./src/assets/js/main.js",
   mode: process.env.NODE_ENV,
   
   output: {

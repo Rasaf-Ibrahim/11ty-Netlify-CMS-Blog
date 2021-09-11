@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master 
+  branch: main 
 
   
 # publish_mode: editorial_workflow
@@ -11,18 +11,19 @@ public_folder: "/assets/image"
 
 
 collections:
-  - name: "posts" 
-    label: "Post" 
-    folder: "src/posts" 
+  - name: "articles" 
+    label: "Articles" 
+    folder: "src/articles" 
     create: true
     slug: "{{slug}}" 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Date", name: "date", widget: "dateTime"}
+      - {label: "Author", name: "author", widget: "string", default: "Rasaf Ibrahim"}
+      - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "img", widget: "image"}
-      - {label: "Image Alt", name: "imgAlt", widget: "string"}
-      - {label: "Content", name: "description", widget: "markdown"}
+      - {label: "Image Alt", name: "imgAlt", widget: "string", default: "Article's Image"}
+      - {label: "Summary", name: "summary", widget: "string"}
+      - {label: "Article", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list", default: "posts"}
 
 

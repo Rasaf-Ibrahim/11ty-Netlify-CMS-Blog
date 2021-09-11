@@ -9,9 +9,3 @@ img5: https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixid=MnwxMjA3
 img6: https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
 img7: https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=658&q=80
 ---
-
-
-
-
-lorem20
-llklkjj

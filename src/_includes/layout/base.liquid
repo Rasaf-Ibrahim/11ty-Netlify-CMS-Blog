@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon-->
+  <link rel="icon" type="image/svg" href="/assets/favicon/favicon.svg">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/tailwind/index.css">
+
+  <!-- JavaScript -->
+  <script src="/js/main.bundle.js" defer></script>
+
+
+  <!-- netlify cms -->
+  <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+
+
+  <!-- Swiper -->
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+  
+
+
+  <title>{{ title }}</title>
+  {% block head %}{% endblock %}
+
+
+
+</head>
+
+
+
+
+<body  class="relative  bg-s-t1a1 text-l1-a1 font-mono -p">
+
+
+<div class="flex flex-col justify-between min-h-screen">
+
+    <div>
+        {% include './components/header-footer/navbar.liquid' %}
+
+
+        
+
+
+        <main>{{content | safe}}</main>
+        
+
+
+    </div>
+
+
+    <div>
+
+      {% include './components/header-footer/footer.liquid' %}
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+
+
+   
+
+</body>
+</html>

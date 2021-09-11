@@ -1,0 +1,28 @@
+  
+ 
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      loop:true,
+      autoplay: {
+       delay: 1500,
+       disableOnInteraction: false,
+     },
+      keyboard: {
+       enabled: true,
+     },
+     mousewheel: true,
+     centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 40,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+     
+    });
+  </script>

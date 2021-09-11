@@ -1,0 +1,9 @@
+{
+   "layout" : "layout/article.liquid",
+   
+   "tags" : "articles",
+
+   "imgAlt": "Article's Image",
+
+   "author": "Rasaf Ibrahim"
+}

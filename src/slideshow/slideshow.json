@@ -1,4 +1,4 @@
 {
-   "layout": "layout-image.liquid",
+   "layout": "layout/slideshow.liquid",
    "tags" : "nature"
 }

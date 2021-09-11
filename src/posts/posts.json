@@ -1,9 +1,0 @@
-{
-   "layout" : "post-layout.liquid",
-   
-   "tags" : "posts",
-
-   "imgAlt": "Blog post's Image",
-
-   "author": "Rasaf Ibrahim"
-}

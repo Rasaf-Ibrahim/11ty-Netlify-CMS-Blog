@@ -1,0 +1,87 @@
+
+ <!-- Pagination Wrapper -->
+ <div class="--m-20px --p-20px bg-s-t1a3 shadow rounded-lg flex flex-col flex-wrap items-center --gap-20px ">
+
+
+
+    <!-- Suppose you have 7 articles, the following code's output will be like: Showing articles 1 to 5 of 7 total results  -->
+    
+    {% if pagination.pageLinks.length > 1 %}
+      <div class="text-l1-a2">
+        <p>
+          Showing 
+          <span>
+            {{ pagination.pageNumber | times:pagination.size | plus:1 }}
+          </span>
+          to
+          <span>
+            {% if pagination.nextPageLink %}
+              {{ pagination.pageNumber | times:pagination.size | plus:pagination.size }}
+            {% else %}
+              {{ collections.articles.length }}
+            {% endif %}
+          </span>
+          of total
+          <span>{{ collections.articles.length }}</span>
+         results
+        </p>
+      </div>
+    {% endif %}
+    
+    
+    
+    
+    
+    
+    
+    <!-- Previous, Next First, Last Page Wrapper -->
+    <div class="space-x-[8px] lg:space-x-[12px]">
+    
+    
+      <!-- Previous Page -->
+    <span>
+        {% if pagination.previousPageLink %}
+          <a  href="{{ pagination.previousPageHref }}"
+          class="-btn -btn-border-color-t1l1 -btn-sm -btn-scale-down">
+          Previous Page</a>
+        {% endif %}
+    </span>
+    
+    
+    <!-- Next Page -->
+    <span>
+        {% if pagination.nextPageLink %}
+          <a  href="{{ pagination.nextPageHref}}" 
+          class="-btn -btn-border-color-t1l1 -btn-sm -btn-scale-down">
+          Next page </a>
+        {% endif %} 
+    </span>
+    
+    <!-- First Page -->
+    <span>
+      {% if page.url != pagination.href.first %}
+          <a href="{{ pagination.href.first }}"
+          class="-btn -btn-border-color-t1l1 -btn-sm -btn-scale-down">
+          First Page</a>
+      {% endif %}
+    </span>
+    
+    <!-- Last Page -->
+    <span>
+      {% if page.url != pagination.href.last %}
+          <a href="{{ pagination.href.last }}"
+          class="-btn -btn-border-color-t1l1 -btn-sm -btn-scale-down">
+          Last Page</a>
+      {% endif %}
+    </span>
+    
+    
+    </div> <!-- End: Previous, Next First, Last Page Wrapper -->
+    
+    
+    
+    
+    
+    </div> <!-- End:Pagination Wrapper -->
+    
+    

@@ -1,0 +1,33 @@
+<div class="-card-1-3 --pt-4px --pb-12px --px-8px space-y-4 bg-s-t1a3 shadow-lg -fade-in-right "> 
+    
+                
+    <img class="-card-img-1-3" src="{{post.data.img}}  alt="{{post.data.imgAlt}}">
+
+
+
+    <!-- Wrapper Without the image  -->
+    <div class="text-center space-y-3">
+
+        <p class="font-semibold">{{ post.data.title}}</p>
+
+
+        <h5 class="text-l1-a2">
+
+           by {{post.data.author}}
+         
+           on {{ post.data.date | date: " %b %d, %Y"}}
+               
+        </h5>
+
+       <p>  {{ post.data.summary | truncate: 100}}</p>
+
+       <div>
+           <a href="{{ post.url }}">
+               <button class="-btn -btn-sm  -btn-border-color-t1l1 -btn-scale-down">Continue Reading..</button>
+            </a>
+        
+       </div>
+
+    </div>  <!-- End: Wrapper Without the image  -->
+    
+</div> 

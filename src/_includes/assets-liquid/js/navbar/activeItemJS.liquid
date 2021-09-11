@@ -1,0 +1,78 @@
+<!--  Javascript for styling Active Menu Items -->
+
+
+<script>
+
+    // Style the active menu item based on URL
+    
+    const currentLocation = location.href;
+    
+    const menuItem = document.querySelectorAll('.js_nav')
+    
+    const menuLength = menuItem.length
+    
+    for (let i=0; i<menuLength; i++) {
+    
+        if(menuItem[i].href === currentLocation) {
+    
+            menuItem[i].classList.add('bg-s-t1a5') 
+        }
+    }
+    
+    
+    
+    /*
+    
+    ### 11ty uses trailing slash. So, you should use trailing slash in the html otherwise the code of styling the active menu item based on URL will not work.
+    
+    
+    
+    
+    
+    
+    If you check, you will find out that 11ty uses trailing slashes! Example - 
+    
+    http://localhost:8080/blog/
+    
+    http://localhost:8080/about/
+    
+    
+    So, when you are writing html, you need to make sure that you are using trailing slashes! Example - 
+    
+    <a href="/blog/">Blog</a>
+    <a href="/about/">About</a>
+    
+    If you don't use trailing slashes in the html, like the following example:
+    
+    <a href="/blog">Blog</a>
+    <a href="/about">About</a>
+    
+    it will still work. You will be able to navigate without any problem. But you will have problem if you want to style active item. 
+    
+    
+    Suppose, you are in the blog page. If you check 'location.href' in the console, it will be: 
+    
+    'http://localhost:8080/blog/'
+    
+    
+    But if you don't use trailing slash in the html and if you check 'document.querySelectorAll('a')[i].href' for the blog page, it will be:
+    
+    'http://localhost:8080/blog'
+    
+    
+    
+    So, `location.href` and  `document.querySelectorAll('a')[i].href` will not be the same if you don't use trailing slash in the html. 
+    
+    And your code of styling the active item based on URL will not work as you need to check `document.querySelectorAll('a')[i].href === location.href` for that.
+    
+    
+    So, make sure that you are using trailing slash in the html as 11ty uses trailing slash. 
+    
+    
+    */
+    
+    
+    
+    
+    </script>
+    

@@ -8,8 +8,8 @@
     "prod:11ty": "eleventy",
     "dev:webpack": "webpack --watch",
     "prod:webpack": "webpack",
-    "dev:tailwind": "npx tailwindcss --postcss  -i ./src/tailwind/index.css -o ./dist/tailwind/index.css --watch",
-    "prod:tailwind": "NODE_ENV=production npx tailwindcss --postcss  -i ./src/tailwind/index.css -o ./dist/tailwind/index.css --minify",
+    "dev:tailwind": "npx tailwindcss --postcss  -i ./src/assets/tailwind/index.css -o ./dist/tailwind/index.css --watch",
+    "prod:tailwind": "NODE_ENV=production npx tailwindcss --postcss  -i ./src/assets/tailwind/index.css -o ./dist/tailwind/index.css --minify",
     "dev": "npm run dev:webpack & npm run dev:tailwind & npm run dev:11ty",
     "prod": "npm run prod:webpack & npm run prod:tailwind & npm run prod:11ty"
   },
