@@ -1,0 +1,20 @@
+<script>
+
+    const toTop = document.querySelector('.js_backToTop');
+    
+    window.addEventListener('scroll', ()=>{
+    
+        if(window.pageYOffset > 100){
+    
+            toTop.classList.remove('opacity-0');
+        }
+    
+        else{
+            toTop.classList.add('opacity-0');
+        }
+    
+    })
+    
+    
+    </script>
+    

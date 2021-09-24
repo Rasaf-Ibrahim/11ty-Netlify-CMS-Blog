@@ -1,39 +1,6 @@
 ---
-title: blog
 
-layout: 'layout/base.liquid'
-
-pagination:
-  data: collections.articles
-  size: 5
-  alias: postslist
-  reverse: true
+layout: 'articles/articles.liquid'
 
 ---
-
-<h3 class="m-[2rem] text-center">All Articles</h3>
-
-
-<div class="-card-layout-1-3-wrapper">
-
-    <div class="-card-layout-1-3">
-    
-        {% for post in postslist  %}
-
-        
-        {% include './_includes/components/article/articles.liquid' %}      
-
-        {% endfor %}
-    
-    </div>
-    
- </div>
-
-
- 
-
- <!-- Pagination -->
-
- {% include './_includes/components/article/pagination.liquid' %} 
-
 

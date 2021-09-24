@@ -38,13 +38,17 @@
 <div class="flex flex-col justify-between min-h-screen">
 
     <div>
-        {% include './components/header-footer/navbar.liquid' %}
+      {% include './home/components/navbar.liquid' %}
 
 
         
 
 
         <main>{{content | safe}}</main>
+
+
+        <!-- Back To Top Button -->
+        {% include './home/components/backToTop.liquid' %}
         
 
 
@@ -53,7 +57,7 @@
 
     <div>
 
-      {% include './components/header-footer/footer.liquid' %}
+      {% include './home/components/footer.liquid' %}
 
 
     </div>
@@ -81,6 +85,37 @@
   </script>
 
    
+
+
+
+
+<!-- Javascript (Related to this layout) -->
+
+
+<!-- Navbar -->
+
+<!--  Javascript for Toggling Mobile Menu Items -->
+{% include './home/assets-liquid/js/navbar/mobileMenuJS.liquid' %}
+
+<!--  Javascript for styling Active Menu Items -->
+{% include './home/assets-liquid/js/navbar/activeItemJS.liquid' %}
+
+
+<!--  Javascript for toggling Dark & Light Mode -->
+{% include './home/assets-liquid/js/navbar/darkModeJS.liquid' %}
+
+
+
+<!-- Back To Top Button -->
+
+{% include './home/assets-liquid/js/backToTop.liquid' %}
+
+
+<!-- Footer -->
+
+{% include './home/assets-liquid/js/footerJS.liquid' %}
+
+
 
 </body>
 </html>

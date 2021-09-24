@@ -1,0 +1,25 @@
+
+
+
+  <h3 class="m-[2rem] text-center">Recent Articles</h3>
+
+
+ 
+  <div class="-card-layout-1-3-wrapper">
+
+    <div class="-card-layout-1-3">
+    
+        {% for post in collections.articles reversed limit:5 %}
+
+        
+            {% include './articles/components/articles.liquid' %}    
+
+
+        {% endfor %}
+    
+    </div>
+    
+
+    
+
+</div>

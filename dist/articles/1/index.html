@@ -6,7 +6,7 @@
 
   <!-- title -->
 
-  <title>blog</title>
+  <title>Articles</title>
   
 
   <!-- Favicon-->
@@ -38,7 +38,7 @@
 <div class="flex flex-col justify-between min-h-screen">
 
     <div>
-        <!-- 
+      <!-- 
 Design plan:
 
 In mobile, 
@@ -170,163 +170,6 @@ viewBox="0 0 21.864 21.864"
 
 
 
-
-<!--  Javascript for Toggling Mobile Menu Items -->
-<!--  Javascript for Toggling Mobile Menu Items -->
-
-<script>
-
-    // grab everything we need
-    const btn = document.querySelector(".js_hamburger");
-    const menu = document.querySelector(".js_mobile-menu");
-    
-    
-    // add event listeners
-    btn.addEventListener("click", () => {
-    
-    if (menu.classList.contains("hidden")) {
-      menu.classList.remove("hidden");  
-    }
-    
-    else  {
-      menu.classList.add("hidden");
-    }
-    
-    });
-    
-</script>
-    
-
-<!--  Javascript for styling Active Menu Items -->
-<!--  Javascript for styling Active Menu Items -->
-
-
-<script>
-
-    // Style the active menu item based on URL
-    
-    const currentLocation = location.href;
-    
-    const menuItem = document.querySelectorAll('.js_nav')
-    
-    const menuLength = menuItem.length
-    
-    for (let i=0; i<menuLength; i++) {
-    
-        if(menuItem[i].href === currentLocation) {
-    
-            menuItem[i].classList.add('bg-s-t1a5') 
-        }
-    }
-    
-    
-    
-    /*
-    
-    ### 11ty uses trailing slash. So, you should use trailing slash in the html otherwise the code of styling the active menu item based on URL will not work.
-    
-    
-    
-    
-    
-    
-    If you check, you will find out that 11ty uses trailing slashes! Example - 
-    
-    http://localhost:8080/blog/
-    
-    http://localhost:8080/about/
-    
-    
-    So, when you are writing html, you need to make sure that you are using trailing slashes! Example - 
-    
-    <a href="/blog/">Blog</a>
-    <a href="/about/">About</a>
-    
-    If you don't use trailing slashes in the html, like the following example:
-    
-    <a href="/blog">Blog</a>
-    <a href="/about">About</a>
-    
-    it will still work. You will be able to navigate without any problem. But you will have problem if you want to style active item. 
-    
-    
-    Suppose, you are in the blog page. If you check 'location.href' in the console, it will be: 
-    
-    'http://localhost:8080/blog/'
-    
-    
-    But if you don't use trailing slash in the html and if you check 'document.querySelectorAll('a')[i].href' for the blog page, it will be:
-    
-    'http://localhost:8080/blog'
-    
-    
-    
-    So, `location.href` and  `document.querySelectorAll('a')[i].href` will not be the same if you don't use trailing slash in the html. 
-    
-    And your code of styling the active item based on URL will not work as you need to check `document.querySelectorAll('a')[i].href === location.href` for that.
-    
-    
-    So, make sure that you are using trailing slash in the html as 11ty uses trailing slash. 
-    
-    
-    */
-    
-    
-    
-    
-    </script>
-    
-
-
-<!--  Javascript for toggling Dark & Light Mode -->
-<!--  Javascript for toggling Dark & Light Mode -->
-
-<script>
-    const darkModeToggle = document.querySelector('#dark-mode-toggle');
-    
-    const enableDarkMode = () => {
-      // 1. Add the class to the body
-      document.body.classList.add('dark');
-      // 2. Update darkMode in localStorage
-      localStorage.setItem('darkMode', 'enabled');
-    }
-    
-    const disableDarkMode = () => {
-      // 1. Remove the class from the body
-      document.body.classList.remove('dark');
-      // 2. Update darkMode in localStorage 
-      localStorage.setItem('darkMode', null);
-    }
-      
-    
-    // check for saved 'darkMode' in localStorage
-    let darkMode = localStorage.getItem('darkMode'); 
-    
-    
-    // If the user already visited and enabled darkMode
-    // start things off with it on
-    if (darkMode === 'enabled') {
-      enableDarkMode();
-    }
-    
-    // When someone clicks the button
-    darkModeToggle.addEventListener('click', () => {
-      // get their darkMode setting
-      let mode = localStorage.getItem('darkMode'); 
-      
-      // if it not current enabled, enable it
-      if (mode !== 'enabled') {
-        enableDarkMode();
-      // if it has been enabled, turn it off  
-      } else {  
-        disableDarkMode(); 
-      }
-    
-    
-    });
-    
-    
-</script>
 
 
 
@@ -508,6 +351,25 @@ viewBox="0 0 21.864 21.864"
 
 
 </main>
+
+
+        <!-- Back To Top Button -->
+        <a class="fixed bottom-2 right-2 opacity-0 _p-8px rounded-full bg-s-t1a5 hover:bg-s-t1a4 shadow js_backToTop" href="#"
+    title="Back to Top of the Page">
+
+    <svg 
+
+class="w-6 h-6"
+style="display:inline-block" 
+fill="currentColor" 
+stroke="currentColor" 
+viewBox="0 0 24 24">
+
+<path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path>
+
+</svg>
+
+</a>
         
 
 
@@ -516,10 +378,10 @@ viewBox="0 0 21.864 21.864"
 
     <div>
 
-      <footer class="p-4 mt-4 bg-s-t1a4 shadow-lg flex flex-col items-center _gap-16px ">
+      <footer class="p-4 mt-4 bg-s-t1a4 shadow-lg -h5 flex flex-col items-center _gap-16px ">
 
     <div>
-        <span class="p-2 -h5 bg-s-t1a5">
+        <span class="p-2 bg-s-t1a5">
             &copy; <span class="js_footer"></span> No Copyright
         </span>
     </div>
@@ -536,22 +398,7 @@ viewBox="0 0 21.864 21.864"
 
 
 
-<!-- Javascript -->
 
-<script>
-
-   function  hello () {
-
-let date = new window.Date();   
-
-let year = date.getFullYear();
-
-return document.querySelector('.js_footer').innerHTML = year;
-
-}
-
-hello();
-</script>
 
 
     </div>
@@ -579,6 +426,216 @@ hello();
   </script>
 
    
+
+
+
+
+<!-- Javascript (Related to this layout) -->
+
+
+<!-- Navbar -->
+
+<!--  Javascript for Toggling Mobile Menu Items -->
+<!--  Javascript for Toggling Mobile Menu Items -->
+
+<script>
+
+    // grab everything we need
+    const btn = document.querySelector(".js_hamburger");
+    const menu = document.querySelector(".js_mobile-menu");
+    
+    
+    // add event listeners
+    btn.addEventListener("click", () => {
+    
+    if (menu.classList.contains("hidden")) {
+      menu.classList.remove("hidden");  
+    }
+    
+    else  {
+      menu.classList.add("hidden");
+    }
+    
+    });
+    
+</script>
+    
+
+<!--  Javascript for styling Active Menu Items -->
+<!--  Javascript for styling Active Menu Items -->
+
+
+<script>
+
+    // Style the active menu item based on URL
+    
+    const currentLocation = location.href;
+    
+    const menuItem = document.querySelectorAll('.js_nav')
+    
+    const menuLength = menuItem.length
+    
+    for (let i=0; i<menuLength; i++) {
+    
+        if(menuItem[i].href === currentLocation) {
+    
+            menuItem[i].classList.add('bg-s-t1a5') 
+        }
+    }
+    
+    
+    
+    /*
+    
+    ### 11ty uses trailing slash. So, you should use trailing slash in the html otherwise the code of styling the active menu item based on URL will not work.
+    
+    
+    
+    
+    
+    
+    If you check, you will find out that 11ty uses trailing slashes! Example - 
+    
+    http://localhost:8080/blog/
+    
+    http://localhost:8080/about/
+    
+    
+    So, when you are writing html, you need to make sure that you are using trailing slashes! Example - 
+    
+    <a href="/blog/">Blog</a>
+    <a href="/about/">About</a>
+    
+    If you don't use trailing slashes in the html, like the following example:
+    
+    <a href="/blog">Blog</a>
+    <a href="/about">About</a>
+    
+    it will still work. You will be able to navigate without any problem. But you will have problem if you want to style active item. 
+    
+    
+    Suppose, you are in the blog page. If you check 'location.href' in the console, it will be: 
+    
+    'http://localhost:8080/blog/'
+    
+    
+    But if you don't use trailing slash in the html and if you check 'document.querySelectorAll('a')[i].href' for the blog page, it will be:
+    
+    'http://localhost:8080/blog'
+    
+    
+    
+    So, `location.href` and  `document.querySelectorAll('a')[i].href` will not be the same if you don't use trailing slash in the html. 
+    
+    And your code of styling the active item based on URL will not work as you need to check `document.querySelectorAll('a')[i].href === location.href` for that.
+    
+    
+    So, make sure that you are using trailing slash in the html as 11ty uses trailing slash. 
+    
+    
+    */
+    
+    
+    
+    
+    </script>
+    
+
+
+<!--  Javascript for toggling Dark & Light Mode -->
+<!--  Javascript for toggling Dark & Light Mode -->
+
+<script>
+    const darkModeToggle = document.querySelector('#dark-mode-toggle');
+    
+    const enableDarkMode = () => {
+      // 1. Add the class to the body
+      document.body.classList.add('dark');
+      // 2. Update darkMode in localStorage
+      localStorage.setItem('darkMode', 'enabled');
+    }
+    
+    const disableDarkMode = () => {
+      // 1. Remove the class from the body
+      document.body.classList.remove('dark');
+      // 2. Update darkMode in localStorage 
+      localStorage.setItem('darkMode', null);
+    }
+      
+    
+    // check for saved 'darkMode' in localStorage
+    let darkMode = localStorage.getItem('darkMode'); 
+    
+    
+    // If the user already visited and enabled darkMode
+    // start things off with it on
+    if (darkMode === 'enabled') {
+      enableDarkMode();
+    }
+    
+    // When someone clicks the button
+    darkModeToggle.addEventListener('click', () => {
+      // get their darkMode setting
+      let mode = localStorage.getItem('darkMode'); 
+      
+      // if it not current enabled, enable it
+      if (mode !== 'enabled') {
+        enableDarkMode();
+      // if it has been enabled, turn it off  
+      } else {  
+        disableDarkMode(); 
+      }
+    
+    
+    });
+    
+    
+</script>
+
+
+
+<!-- Back To Top Button -->
+
+<script>
+
+    const toTop = document.querySelector('.js_backToTop');
+    
+    window.addEventListener('scroll', ()=>{
+    
+        if(window.pageYOffset > 100){
+    
+            toTop.classList.remove('opacity-0');
+        }
+    
+        else{
+            toTop.classList.add('opacity-0');
+        }
+    
+    })
+    
+    
+    </script>
+    
+
+
+<!-- Footer -->
+
+<script>
+
+   function  hello () {
+
+let date = new window.Date();   
+
+let year = date.getFullYear();
+
+return document.querySelector('.js_footer').innerHTML = year;
+
+}
+
+hello();
+</script>
+
+
 
 </body>
 </html>
