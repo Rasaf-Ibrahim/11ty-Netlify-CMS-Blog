@@ -1,6 +1,6 @@
 @layer utilities {
 
-    .--gap-x-4px {
+    ._gap-x-4px {
 
         @apply
         gap-x-[var(--sm-4px)]
@@ -11,7 +11,7 @@
     }
 
 
-    .--gap-x-8px {
+    ._gap-x-8px {
 
         @apply
         gap-x-[var(--sm-8px)]
@@ -22,7 +22,7 @@
     }
     
 
-    .--gap-x-12px {
+    ._gap-x-12px {
     
         @apply
         gap-x-[var(--sm-12px)]
@@ -33,7 +33,7 @@
     }
 
 
-    .--gap-x-16px {
+    ._gap-x-16px {
 
         @apply
         gap-x-[var(--sm-16px)]
@@ -44,7 +44,7 @@
     }
 
 
-    .--gap-x-20px {
+    ._gap-x-20px {
 
         @apply
         gap-x-[var(--sm-20px)]
@@ -56,7 +56,7 @@
     
 
 
-    .--gap-x-24px {
+    ._gap-x-24px {
 
         @apply
         gap-x-[var(--sm-24px)]
@@ -68,7 +68,7 @@
 
 
 
-    .--gap-x-28px {
+    ._gap-x-28px {
 
         @apply
         gap-x-[var(--sm-28px)]
@@ -79,7 +79,7 @@
     }
 
 
-    .--gap-x-32px {
+    ._gap-x-32px {
 
         @apply
         gap-x-[var(--sm-32px)]
@@ -90,7 +90,7 @@
     }
 
     
-    .--gap-x-36px {
+    ._gap-x-36px {
 
         @apply
         gap-x-[var(--sm-36px)]
@@ -102,7 +102,7 @@
 
     
 
-    .--gap-x-40px {
+    ._gap-x-40px {
 
         @apply
         gap-x-[var(--sm-40px)]
@@ -114,7 +114,7 @@
 
     
 
-    .--gap-x-44px {
+    ._gap-x-44px {
 
         @apply
         gap-x-[var(--sm-44px)]
@@ -126,7 +126,7 @@
 
     
 
-    .--gap-x-48px {
+    ._gap-x-48px {
 
         @apply
         gap-x-[var(--sm-48px)]
@@ -137,7 +137,7 @@
     }
 
 
-    .--gap-x-52px {
+    ._gap-x-52px {
 
         @apply
         gap-x-[var(--sm-52px)]
@@ -148,7 +148,7 @@
     }
 
 
-    .--gap-x-56px {
+    ._gap-x-56px {
 
         @apply
         gap-x-[var(--sm-56px)]
@@ -159,7 +159,7 @@
     }
     
 
-    .--gap-x-60px {
+    ._gap-x-60px {
 
         @apply
         gap-x-[var(--sm-60px)]
@@ -170,7 +170,7 @@
     }
 
 
-    .--gap-x-64px {
+    ._gap-x-64px {
 
         @apply
         gap-x-[var(--sm-64px)]
@@ -181,7 +181,7 @@
     }
 
 
-    .--gap-x-68px {
+    ._gap-x-68px {
 
         @apply
         gap-x-[var(--sm-68px)]
@@ -192,7 +192,7 @@
     }
 
     
-    .--gap-x-72px {
+    ._gap-x-72px {
 
         @apply
         gap-x-[var(--sm-72px)]
@@ -203,7 +203,7 @@
     }
 
 
-    .--gap-x-76px {
+    ._gap-x-76px {
 
         @apply
         gap-x-[var(--sm-76px)]
@@ -214,7 +214,7 @@
     }
 
     
-    .--gap-x-80px {
+    ._gap-x-80px {
 
         @apply
         gap-x-[var(--sm-80px)]

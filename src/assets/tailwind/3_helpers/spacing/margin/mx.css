@@ -1,6 +1,6 @@
 @layer utilities {
 
-    .--mx-4px {
+    ._mx-4px {
 
         @apply
         mx-[var(--sm-4px)]
@@ -11,7 +11,7 @@
     }
 
 
-    .--mx-8px {
+    ._mx-8px {
 
         @apply
         mx-[var(--sm-8px)]
@@ -22,7 +22,7 @@
     }
     
 
-    .--mx-12px {
+    ._mx-12px {
     
         @apply
         mx-[var(--sm-12px)]
@@ -33,7 +33,7 @@
     }
 
 
-    .--mx-16px {
+    ._mx-16px {
 
         @apply
         mx-[var(--sm-16px)]
@@ -44,7 +44,7 @@
     }
 
 
-    .--mx-20px {
+    ._mx-20px {
 
         @apply
         mx-[var(--sm-20px)]
@@ -56,7 +56,7 @@
     
 
 
-    .--mx-24px {
+    ._mx-24px {
 
         @apply
         mx-[var(--sm-24px)]
@@ -68,7 +68,7 @@
 
 
 
-    .--mx-28px {
+    ._mx-28px {
 
         @apply
         mx-[var(--sm-28px)]
@@ -79,7 +79,7 @@
     }
 
 
-    .--mx-32px {
+    ._mx-32px {
 
         @apply
         mx-[var(--sm-32px)]
@@ -90,7 +90,7 @@
     }
 
     
-    .--mx-36px {
+    ._mx-36px {
 
         @apply
         mx-[var(--sm-36px)]
@@ -102,7 +102,7 @@
 
     
 
-    .--mx-40px {
+    ._mx-40px {
 
         @apply
         mx-[var(--sm-40px)]
@@ -114,7 +114,7 @@
 
     
 
-    .--mx-44px {
+    ._mx-44px {
 
         @apply
         mx-[var(--sm-44px)]
@@ -126,7 +126,7 @@
 
     
 
-    .--mx-48px {
+    ._mx-48px {
 
         @apply
         mx-[var(--sm-48px)]
@@ -137,7 +137,7 @@
     }
 
 
-    .--mx-52px {
+    ._mx-52px {
 
         @apply
         mx-[var(--sm-52px)]
@@ -148,7 +148,7 @@
     }
 
 
-    .--mx-56px {
+    ._mx-56px {
 
         @apply
         mx-[var(--sm-56px)]
@@ -159,7 +159,7 @@
     }
     
 
-    .--mx-60px {
+    ._mx-60px {
 
         @apply
         mx-[var(--sm-60px)]
@@ -170,7 +170,7 @@
     }
 
 
-    .--mx-64px {
+    ._mx-64px {
 
         @apply
         mx-[var(--sm-64px)]
@@ -181,7 +181,7 @@
     }
 
 
-    .--mx-68px {
+    ._mx-68px {
 
         @apply
         mx-[var(--sm-68px)]
@@ -192,7 +192,7 @@
     }
 
     
-    .--mx-72px {
+    ._mx-72px {
 
         @apply
         mx-[var(--sm-72px)]
@@ -203,7 +203,7 @@
     }
 
 
-    .--mx-76px {
+    ._mx-76px {
 
         @apply
         mx-[var(--sm-76px)]
@@ -214,7 +214,7 @@
     }
 
     
-    .--mx-80px {
+    ._mx-80px {
 
         @apply
         mx-[var(--sm-80px)]

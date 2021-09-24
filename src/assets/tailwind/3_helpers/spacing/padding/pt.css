@@ -1,6 +1,6 @@
 @layer utilities {
 
-    .--pt-4px {
+    ._pt-4px {
 
         @apply
         pt-[var(--sm-4px)]
@@ -11,7 +11,7 @@
     }
 
 
-    .--pt-8px {
+    ._pt-8px {
 
         @apply
         pt-[var(--sm-8px)]
@@ -22,7 +22,7 @@
     }
     
 
-    .--pt-12px {
+    ._pt-12px {
     
         @apply
         pt-[var(--sm-12px)]
@@ -33,7 +33,7 @@
     }
 
 
-    .--pt-16px {
+    ._pt-16px {
 
         @apply
         pt-[var(--sm-16px)]
@@ -44,7 +44,7 @@
     }
 
 
-    .--pt-20px {
+    ._pt-20px {
 
         @apply
         pt-[var(--sm-20px)]
@@ -56,7 +56,7 @@
     
 
 
-    .--pt-24px {
+    ._pt-24px {
 
         @apply
         pt-[var(--sm-24px)]
@@ -68,7 +68,7 @@
 
 
 
-    .--pt-28px {
+    ._pt-28px {
 
         @apply
         pt-[var(--sm-28px)]
@@ -79,7 +79,7 @@
     }
 
 
-    .--pt-32px {
+    ._pt-32px {
 
         @apply
         pt-[var(--sm-32px)]
@@ -90,7 +90,7 @@
     }
 
     
-    .--pt-36px {
+    ._pt-36px {
 
         @apply
         pt-[var(--sm-36px)]
@@ -102,7 +102,7 @@
 
     
 
-    .--pt-40px {
+    ._pt-40px {
 
         @apply
         pt-[var(--sm-40px)]
@@ -114,7 +114,7 @@
 
     
 
-    .--pt-44px {
+    ._pt-44px {
 
         @apply
         pt-[var(--sm-44px)]
@@ -126,7 +126,7 @@
 
     
 
-    .--pt-48px {
+    ._pt-48px {
 
         @apply
         pt-[var(--sm-48px)]
@@ -137,7 +137,7 @@
     }
 
 
-    .--pt-52px {
+    ._pt-52px {
 
         @apply
         pt-[var(--sm-52px)]
@@ -148,7 +148,7 @@
     }
 
 
-    .--pt-56px {
+    ._pt-56px {
 
         @apply
         pt-[var(--sm-56px)]
@@ -159,7 +159,7 @@
     }
     
 
-    .--pt-60px {
+    ._pt-60px {
 
         @apply
         pt-[var(--sm-60px)]
@@ -170,7 +170,7 @@
     }
 
 
-    .--pt-64px {
+    ._pt-64px {
 
         @apply
         pt-[var(--sm-64px)]
@@ -181,7 +181,7 @@
     }
 
 
-    .--pt-68px {
+    ._pt-68px {
 
         @apply
         pt-[var(--sm-68px)]
@@ -192,7 +192,7 @@
     }
 
     
-    .--pt-72px {
+    ._pt-72px {
 
         @apply
         pt-[var(--sm-72px)]
@@ -203,7 +203,7 @@
     }
 
 
-    .--pt-76px {
+    ._pt-76px {
 
         @apply
         pt-[var(--sm-76px)]
@@ -214,7 +214,7 @@
     }
 
     
-    .--pt-80px {
+    ._pt-80px {
 
         @apply
         pt-[var(--sm-80px)]

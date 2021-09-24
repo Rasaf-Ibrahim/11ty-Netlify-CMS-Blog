@@ -1,6 +1,6 @@
 @layer utilities {
 
-    .--px-4px {
+    ._px-4px {
 
         @apply
         px-[var(--sm-4px)]
@@ -11,7 +11,7 @@
     }
 
 
-    .--px-8px {
+    ._px-8px {
 
         @apply
         px-[var(--sm-8px)]
@@ -22,7 +22,7 @@
     }
     
 
-    .--px-12px {
+    ._px-12px {
     
         @apply
         px-[var(--sm-12px)]
@@ -33,7 +33,7 @@
     }
 
 
-    .--px-16px {
+    ._px-16px {
 
         @apply
         px-[var(--sm-16px)]
@@ -44,7 +44,7 @@
     }
 
 
-    .--px-20px {
+    ._px-20px {
 
         @apply
         px-[var(--sm-20px)]
@@ -56,7 +56,7 @@
     
 
 
-    .--px-24px {
+    ._px-24px {
 
         @apply
         px-[var(--sm-24px)]
@@ -68,7 +68,7 @@
 
 
 
-    .--px-28px {
+    ._px-28px {
 
         @apply
         px-[var(--sm-28px)]
@@ -79,7 +79,7 @@
     }
 
 
-    .--px-32px {
+    ._px-32px {
 
         @apply
         px-[var(--sm-32px)]
@@ -90,7 +90,7 @@
     }
 
     
-    .--px-36px {
+    ._px-36px {
 
         @apply
         px-[var(--sm-36px)]
@@ -102,7 +102,7 @@
 
     
 
-    .--px-40px {
+    ._px-40px {
 
         @apply
         px-[var(--sm-40px)]
@@ -114,7 +114,7 @@
 
     
 
-    .--px-44px {
+    ._px-44px {
 
         @apply
         px-[var(--sm-44px)]
@@ -126,7 +126,7 @@
 
     
 
-    .--px-48px {
+    ._px-48px {
 
         @apply
         px-[var(--sm-48px)]
@@ -137,7 +137,7 @@
     }
 
 
-    .--px-52px {
+    ._px-52px {
 
         @apply
         px-[var(--sm-52px)]
@@ -148,7 +148,7 @@
     }
 
 
-    .--px-56px {
+    ._px-56px {
 
         @apply
         px-[var(--sm-56px)]
@@ -159,7 +159,7 @@
     }
     
 
-    .--px-60px {
+    ._px-60px {
 
         @apply
         px-[var(--sm-60px)]
@@ -170,7 +170,7 @@
     }
 
 
-    .--px-64px {
+    ._px-64px {
 
         @apply
         px-[var(--sm-64px)]
@@ -181,7 +181,7 @@
     }
 
 
-    .--px-68px {
+    ._px-68px {
 
         @apply
         px-[var(--sm-68px)]
@@ -192,7 +192,7 @@
     }
 
     
-    .--px-72px {
+    ._px-72px {
 
         @apply
         px-[var(--sm-72px)]
@@ -203,7 +203,7 @@
     }
 
 
-    .--px-76px {
+    ._px-76px {
 
         @apply
         px-[var(--sm-76px)]
@@ -214,7 +214,7 @@
     }
 
     
-    .--px-80px {
+    ._px-80px {
 
         @apply
         px-[var(--sm-80px)]

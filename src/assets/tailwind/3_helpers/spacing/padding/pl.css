@@ -1,6 +1,6 @@
 @layer utilities {
 
-    .--pl-4px {
+    ._pl-4px {
 
         @apply
         pl-[var(--sm-4px)]
@@ -11,7 +11,7 @@
     }
 
 
-    .--pl-8px {
+    ._pl-8px {
 
         @apply
         pl-[var(--sm-8px)]
@@ -22,7 +22,7 @@
     }
     
 
-    .--pl-12px {
+    ._pl-12px {
     
         @apply
         pl-[var(--sm-12px)]
@@ -33,7 +33,7 @@
     }
 
 
-    .--pl-16px {
+    ._pl-16px {
 
         @apply
         pl-[var(--sm-16px)]
@@ -44,7 +44,7 @@
     }
 
 
-    .--pl-20px {
+    ._pl-20px {
 
         @apply
         pl-[var(--sm-20px)]
@@ -56,7 +56,7 @@
     
 
 
-    .--pl-24px {
+    ._pl-24px {
 
         @apply
         pl-[var(--sm-24px)]
@@ -68,7 +68,7 @@
 
 
 
-    .--pl-28px {
+    ._pl-28px {
 
         @apply
         pl-[var(--sm-28px)]
@@ -79,7 +79,7 @@
     }
 
 
-    .--pl-32px {
+    ._pl-32px {
 
         @apply
         pl-[var(--sm-32px)]
@@ -90,7 +90,7 @@
     }
 
     
-    .--pl-36px {
+    ._pl-36px {
 
         @apply
         pl-[var(--sm-36px)]
@@ -102,7 +102,7 @@
 
     
 
-    .--pl-40px {
+    ._pl-40px {
 
         @apply
         pl-[var(--sm-40px)]
@@ -114,7 +114,7 @@
 
     
 
-    .--pl-44px {
+    ._pl-44px {
 
         @apply
         pl-[var(--sm-44px)]
@@ -126,7 +126,7 @@
 
     
 
-    .--pl-48px {
+    ._pl-48px {
 
         @apply
         pl-[var(--sm-48px)]
@@ -137,7 +137,7 @@
     }
 
 
-    .--pl-52px {
+    ._pl-52px {
 
         @apply
         pl-[var(--sm-52px)]
@@ -148,7 +148,7 @@
     }
 
 
-    .--pl-56px {
+    ._pl-56px {
 
         @apply
         pl-[var(--sm-56px)]
@@ -159,7 +159,7 @@
     }
     
 
-    .--pl-60px {
+    ._pl-60px {
 
         @apply
         pl-[var(--sm-60px)]
@@ -170,7 +170,7 @@
     }
 
 
-    .--pl-64px {
+    ._pl-64px {
 
         @apply
         pl-[var(--sm-64px)]
@@ -181,7 +181,7 @@
     }
 
 
-    .--pl-68px {
+    ._pl-68px {
 
         @apply
         pl-[var(--sm-68px)]
@@ -192,7 +192,7 @@
     }
 
     
-    .--pl-72px {
+    ._pl-72px {
 
         @apply
         pl-[var(--sm-72px)]
@@ -203,7 +203,7 @@
     }
 
 
-    .--pl-76px {
+    ._pl-76px {
 
         @apply
         pl-[var(--sm-76px)]
@@ -214,7 +214,7 @@
     }
 
     
-    .--pl-80px {
+    ._pl-80px {
 
         @apply
         pl-[var(--sm-80px)]

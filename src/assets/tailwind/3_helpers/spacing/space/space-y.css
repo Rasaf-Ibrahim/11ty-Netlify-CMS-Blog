@@ -1,6 +1,6 @@
 @layer utilities {
 
-    .--space-y-4px {
+    ._space-y-4px {
 
         @apply
         space-y-[var(--sm-4px)]
@@ -11,7 +11,7 @@
     }
 
 
-    .--space-y-8px {
+    ._space-y-8px {
 
         @apply
         space-y-[var(--sm-8px)]
@@ -22,7 +22,7 @@
     }
     
 
-    .--space-y-12px {
+    ._space-y-12px {
     
         @apply
         space-y-[var(--sm-12px)]
@@ -33,7 +33,7 @@
     }
 
 
-    .--space-y-16px {
+    ._space-y-16px {
 
         @apply
         space-y-[var(--sm-16px)]
@@ -44,7 +44,7 @@
     }
 
 
-    .--space-y-20px {
+    ._space-y-20px {
 
         @apply
         space-y-[var(--sm-20px)]
@@ -56,7 +56,7 @@
     
 
 
-    .--space-y-24px {
+    ._space-y-24px {
 
         @apply
         space-y-[var(--sm-24px)]
@@ -68,7 +68,7 @@
 
 
 
-    .--space-y-28px {
+    ._space-y-28px {
 
         @apply
         space-y-[var(--sm-28px)]
@@ -79,7 +79,7 @@
     }
 
 
-    .--space-y-32px {
+    ._space-y-32px {
 
         @apply
         space-y-[var(--sm-32px)]
@@ -90,7 +90,7 @@
     }
 
     
-    .--space-y-36px {
+    ._space-y-36px {
 
         @apply
         space-y-[var(--sm-36px)]
@@ -102,7 +102,7 @@
 
     
 
-    .--space-y-40px {
+    ._space-y-40px {
 
         @apply
         space-y-[var(--sm-40px)]
@@ -114,7 +114,7 @@
 
     
 
-    .--space-y-44px {
+    ._space-y-44px {
 
         @apply
         space-y-[var(--sm-44px)]
@@ -126,7 +126,7 @@
 
     
 
-    .--space-y-48px {
+    ._space-y-48px {
 
         @apply
         space-y-[var(--sm-48px)]
@@ -137,7 +137,7 @@
     }
 
 
-    .--space-y-52px {
+    ._space-y-52px {
 
         @apply
         space-y-[var(--sm-52px)]
@@ -148,7 +148,7 @@
     }
 
 
-    .--space-y-56px {
+    ._space-y-56px {
 
         @apply
         space-y-[var(--sm-56px)]
@@ -159,7 +159,7 @@
     }
     
 
-    .--space-y-60px {
+    ._space-y-60px {
 
         @apply
         space-y-[var(--sm-60px)]
@@ -170,7 +170,7 @@
     }
 
 
-    .--space-y-64px {
+    ._space-y-64px {
 
         @apply
         space-y-[var(--sm-64px)]
@@ -181,7 +181,7 @@
     }
 
 
-    .--space-y-68px {
+    ._space-y-68px {
 
         @apply
         space-y-[var(--sm-68px)]
@@ -192,7 +192,7 @@
     }
 
     
-    .--space-y-72px {
+    ._space-y-72px {
 
         @apply
         space-y-[var(--sm-72px)]
@@ -203,7 +203,7 @@
     }
 
 
-    .--space-y-76px {
+    ._space-y-76px {
 
         @apply
         space-y-[var(--sm-76px)]
@@ -214,7 +214,7 @@
     }
 
     
-    .--space-y-80px {
+    ._space-y-80px {
 
         @apply
         space-y-[var(--sm-80px)]

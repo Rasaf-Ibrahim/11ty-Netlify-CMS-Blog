@@ -33,11 +33,18 @@ config.setFrontMatterParsingOptions({
 config.setTemplateFormats(["jpg", "png", "webp", "md", "njk", "liquid"]);
 
 
+
 // browsersync
 
 config.setBrowserSyncConfig({
   files: ["dist/**/*"],
   open: true,
+
+ 
+  // Open the site in Vivaldi & Firefox
+  browser: ["vivaldi", "firefox"]
+  
+
 });
 
 

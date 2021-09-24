@@ -1,6 +1,6 @@
 @layer utilities {
 
-    .--mr-4px {
+    ._mr-4px {
 
         @apply
         mr-[var(--sm-4px)]
@@ -11,7 +11,7 @@
     }
 
 
-    .--mr-8px {
+    ._mr-8px {
 
         @apply
         mr-[var(--sm-8px)]
@@ -22,7 +22,7 @@
     }
     
 
-    .--mr-12px {
+    ._mr-12px {
     
         @apply
         mr-[var(--sm-12px)]
@@ -33,7 +33,7 @@
     }
 
 
-    .--mr-16px {
+    ._mr-16px {
 
         @apply
         mr-[var(--sm-16px)]
@@ -44,7 +44,7 @@
     }
 
 
-    .--mr-20px {
+    ._mr-20px {
 
         @apply
         mr-[var(--sm-20px)]
@@ -56,7 +56,7 @@
     
 
 
-    .--mr-24px {
+    ._mr-24px {
 
         @apply
         mr-[var(--sm-24px)]
@@ -68,7 +68,7 @@
 
 
 
-    .--mr-28px {
+    ._mr-28px {
 
         @apply
         mr-[var(--sm-28px)]
@@ -79,7 +79,7 @@
     }
 
 
-    .--mr-32px {
+    ._mr-32px {
 
         @apply
         mr-[var(--sm-32px)]
@@ -90,7 +90,7 @@
     }
 
     
-    .--mr-36px {
+    ._mr-36px {
 
         @apply
         mr-[var(--sm-36px)]
@@ -102,7 +102,7 @@
 
     
 
-    .--mr-40px {
+    ._mr-40px {
 
         @apply
         mr-[var(--sm-40px)]
@@ -114,7 +114,7 @@
 
     
 
-    .--mr-44px {
+    ._mr-44px {
 
         @apply
         mr-[var(--sm-44px)]
@@ -126,7 +126,7 @@
 
     
 
-    .--mr-48px {
+    ._mr-48px {
 
         @apply
         mr-[var(--sm-48px)]
@@ -137,7 +137,7 @@
     }
 
 
-    .--mr-52px {
+    ._mr-52px {
 
         @apply
         mr-[var(--sm-52px)]
@@ -148,7 +148,7 @@
     }
 
 
-    .--mr-56px {
+    ._mr-56px {
 
         @apply
         mr-[var(--sm-56px)]
@@ -159,7 +159,7 @@
     }
     
 
-    .--mr-60px {
+    ._mr-60px {
 
         @apply
         mr-[var(--sm-60px)]
@@ -170,7 +170,7 @@
     }
 
 
-    .--mr-64px {
+    ._mr-64px {
 
         @apply
         mr-[var(--sm-64px)]
@@ -181,7 +181,7 @@
     }
 
 
-    .--mr-68px {
+    ._mr-68px {
 
         @apply
         mr-[var(--sm-68px)]
@@ -192,7 +192,7 @@
     }
 
     
-    .--mr-72px {
+    ._mr-72px {
 
         @apply
         mr-[var(--sm-72px)]
@@ -203,7 +203,7 @@
     }
 
 
-    .--mr-76px {
+    ._mr-76px {
 
         @apply
         mr-[var(--sm-76px)]
@@ -214,7 +214,7 @@
     }
 
     
-    .--mr-80px {
+    ._mr-80px {
 
         @apply
         mr-[var(--sm-80px)]

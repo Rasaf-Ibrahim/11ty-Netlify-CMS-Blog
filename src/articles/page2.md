@@ -7,9 +7,8 @@ img: https://images.unsplash.com/photo-1629822097366-0ed4b086f080?ixid=MnwxMjA3f
 
 
 
-summary: Bangladesh conforms fully to the UN's Education For All (EFA) objectives[and the Millennium Development Goals (MDG)[4] as 
+summary: Bangladesh conforms fully to the UN's Education For All (EFA) objectives[and the Millennium Development Goals (MDG)[4] as
 ---
 
 
 Bangladesh conforms fully to the UN's Education For All (EFA) objectives[3] and the Millennium Development Goals (MDG)[4] as well as other education-related international declarations. Article 17 of the Bangladesh Constitution provides that all children receive free and compulsory education.[5]
-

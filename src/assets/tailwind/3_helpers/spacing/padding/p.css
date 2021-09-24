@@ -1,6 +1,6 @@
 @layer utilities {
 
-    .--p-4px {
+    ._p-4px {
 
         @apply
         p-[var(--sm-4px)]
@@ -11,7 +11,7 @@
     }
 
 
-    .--p-8px {
+    ._p-8px {
 
         @apply
         p-[var(--sm-8px)]
@@ -22,7 +22,7 @@
     }
     
 
-    .--p-12px {
+    ._p-12px {
     
         @apply
         p-[var(--sm-12px)]
@@ -33,7 +33,7 @@
     }
 
 
-    .--p-16px {
+    ._p-16px {
 
         @apply
         p-[var(--sm-16px)]
@@ -44,7 +44,7 @@
     }
 
 
-    .--p-20px {
+    ._p-20px {
 
         @apply
         p-[var(--sm-20px)]
@@ -56,7 +56,7 @@
     
 
 
-    .--p-24px {
+    ._p-24px {
 
         @apply
         p-[var(--sm-24px)]
@@ -68,7 +68,7 @@
 
 
 
-    .--p-28px {
+    ._p-28px {
 
         @apply
         p-[var(--sm-28px)]
@@ -79,7 +79,7 @@
     }
 
 
-    .--p-32px {
+    ._p-32px {
 
         @apply
         p-[var(--sm-32px)]
@@ -90,7 +90,7 @@
     }
 
     
-    .--p-36px {
+    ._p-36px {
 
         @apply
         p-[var(--sm-36px)]
@@ -102,7 +102,7 @@
 
     
 
-    .--p-40px {
+    ._p-40px {
 
         @apply
         p-[var(--sm-40px)]
@@ -114,7 +114,7 @@
 
     
 
-    .--p-44px {
+    ._p-44px {
 
         @apply
         p-[var(--sm-44px)]
@@ -126,7 +126,7 @@
 
     
 
-    .--p-48px {
+    ._p-48px {
 
         @apply
         p-[var(--sm-48px)]
@@ -137,7 +137,7 @@
     }
 
 
-    .--p-52px {
+    ._p-52px {
 
         @apply
         p-[var(--sm-52px)]
@@ -148,7 +148,7 @@
     }
 
 
-    .--p-56px {
+    ._p-56px {
 
         @apply
         p-[var(--sm-56px)]
@@ -159,7 +159,7 @@
     }
     
 
-    .--p-60px {
+    ._p-60px {
 
         @apply
         p-[var(--sm-60px)]
@@ -170,7 +170,7 @@
     }
 
 
-    .--p-64px {
+    ._p-64px {
 
         @apply
         p-[var(--sm-64px)]
@@ -181,7 +181,7 @@
     }
 
 
-    .--p-68px {
+    ._p-68px {
 
         @apply
         p-[var(--sm-68px)]
@@ -192,7 +192,7 @@
     }
 
     
-    .--p-72px {
+    ._p-72px {
 
         @apply
         p-[var(--sm-72px)]
@@ -203,7 +203,7 @@
     }
 
 
-    .--p-76px {
+    ._p-76px {
 
         @apply
         p-[var(--sm-76px)]
@@ -214,7 +214,7 @@
     }
 
     
-    .--p-80px {
+    ._p-80px {
 
         @apply
         p-[var(--sm-80px)]

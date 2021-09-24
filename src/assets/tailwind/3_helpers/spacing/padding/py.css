@@ -1,6 +1,6 @@
 @layer utilities {
 
-    .--py-4px {
+    ._py-4px {
 
         @apply
         py-[var(--sm-4px)]
@@ -11,7 +11,7 @@
     }
 
 
-    .--py-8px {
+    ._py-8px {
 
         @apply
         py-[var(--sm-8px)]
@@ -22,7 +22,7 @@
     }
     
 
-    .--py-12px {
+    ._py-12px {
     
         @apply
         py-[var(--sm-12px)]
@@ -33,7 +33,7 @@
     }
 
 
-    .--py-16px {
+    ._py-16px {
 
         @apply
         py-[var(--sm-16px)]
@@ -44,7 +44,7 @@
     }
 
 
-    .--py-20px {
+    ._py-20px {
 
         @apply
         py-[var(--sm-20px)]
@@ -56,7 +56,7 @@
     
 
 
-    .--py-24px {
+    ._py-24px {
 
         @apply
         py-[var(--sm-24px)]
@@ -68,7 +68,7 @@
 
 
 
-    .--py-28px {
+    ._py-28px {
 
         @apply
         py-[var(--sm-28px)]
@@ -79,7 +79,7 @@
     }
 
 
-    .--py-32px {
+    ._py-32px {
 
         @apply
         py-[var(--sm-32px)]
@@ -90,7 +90,7 @@
     }
 
     
-    .--py-36px {
+    ._py-36px {
 
         @apply
         py-[var(--sm-36px)]
@@ -102,7 +102,7 @@
 
     
 
-    .--py-40px {
+    ._py-40px {
 
         @apply
         py-[var(--sm-40px)]
@@ -114,7 +114,7 @@
 
     
 
-    .--py-44px {
+    ._py-44px {
 
         @apply
         py-[var(--sm-44px)]
@@ -126,7 +126,7 @@
 
     
 
-    .--py-48px {
+    ._py-48px {
 
         @apply
         py-[var(--sm-48px)]
@@ -137,7 +137,7 @@
     }
 
 
-    .--py-52px {
+    ._py-52px {
 
         @apply
         py-[var(--sm-52px)]
@@ -148,7 +148,7 @@
     }
 
 
-    .--py-56px {
+    ._py-56px {
 
         @apply
         py-[var(--sm-56px)]
@@ -159,7 +159,7 @@
     }
     
 
-    .--py-60px {
+    ._py-60px {
 
         @apply
         py-[var(--sm-60px)]
@@ -170,7 +170,7 @@
     }
 
 
-    .--py-64px {
+    ._py-64px {
 
         @apply
         py-[var(--sm-64px)]
@@ -181,7 +181,7 @@
     }
 
 
-    .--py-68px {
+    ._py-68px {
 
         @apply
         py-[var(--sm-68px)]
@@ -192,7 +192,7 @@
     }
 
     
-    .--py-72px {
+    ._py-72px {
 
         @apply
         py-[var(--sm-72px)]
@@ -203,7 +203,7 @@
     }
 
 
-    .--py-76px {
+    ._py-76px {
 
         @apply
         py-[var(--sm-76px)]
@@ -214,7 +214,7 @@
     }
 
     
-    .--py-80px {
+    ._py-80px {
 
         @apply
         py-[var(--sm-80px)]

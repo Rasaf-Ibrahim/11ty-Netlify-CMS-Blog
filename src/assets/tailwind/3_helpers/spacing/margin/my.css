@@ -1,7 +1,7 @@
 
 @layer utilities {
 
-    .--my-4px {
+    ._my-4px {
 
         @apply
         my-[var(--sm-4px)]
@@ -12,7 +12,7 @@
     }
 
 
-    .--my-8px {
+    ._my-8px {
 
         @apply
         my-[var(--sm-8px)]
@@ -23,7 +23,7 @@
     }
     
 
-    .--my-12px {
+    ._my-12px {
     
         @apply
         my-[var(--sm-12px)]
@@ -34,7 +34,7 @@
     }
 
 
-    .--my-16px {
+    ._my-16px {
 
         @apply
         my-[var(--sm-16px)]
@@ -45,7 +45,7 @@
     }
 
 
-    .--my-20px {
+    ._my-20px {
 
         @apply
         my-[var(--sm-20px)]
@@ -57,7 +57,7 @@
     
 
 
-    .--my-24px {
+    ._my-24px {
 
         @apply
         my-[var(--sm-24px)]
@@ -69,7 +69,7 @@
 
 
 
-    .--my-28px {
+    ._my-28px {
 
         @apply
         my-[var(--sm-28px)]
@@ -80,7 +80,7 @@
     }
 
 
-    .--my-32px {
+    ._my-32px {
 
         @apply
         my-[var(--sm-32px)]
@@ -91,7 +91,7 @@
     }
 
     
-    .--my-36px {
+    ._my-36px {
 
         @apply
         my-[var(--sm-36px)]
@@ -103,7 +103,7 @@
 
     
 
-    .--my-40px {
+    ._my-40px {
 
         @apply
         my-[var(--sm-40px)]
@@ -115,7 +115,7 @@
 
     
 
-    .--my-44px {
+    ._my-44px {
 
         @apply
         my-[var(--sm-44px)]
@@ -127,7 +127,7 @@
 
     
 
-    .--my-48px {
+    ._my-48px {
 
         @apply
         my-[var(--sm-48px)]
@@ -138,7 +138,7 @@
     }
 
 
-    .--my-52px {
+    ._my-52px {
 
         @apply
         my-[var(--sm-52px)]
@@ -149,7 +149,7 @@
     }
 
 
-    .--my-56px {
+    ._my-56px {
 
         @apply
         my-[var(--sm-56px)]
@@ -160,7 +160,7 @@
     }
     
 
-    .--my-60px {
+    ._my-60px {
 
         @apply
         my-[var(--sm-60px)]
@@ -171,7 +171,7 @@
     }
 
 
-    .--my-64px {
+    ._my-64px {
 
         @apply
         my-[var(--sm-64px)]
@@ -182,7 +182,7 @@
     }
 
 
-    .--my-68px {
+    ._my-68px {
 
         @apply
         my-[var(--sm-68px)]
@@ -193,7 +193,7 @@
     }
 
     
-    .--my-72px {
+    ._my-72px {
 
         @apply
         my-[var(--sm-72px)]
@@ -204,7 +204,7 @@
     }
 
 
-    .--my-76px {
+    ._my-76px {
 
         @apply
         my-[var(--sm-76px)]
@@ -215,7 +215,7 @@
     }
 
     
-    .--my-80px {
+    ._my-80px {
 
         @apply
         my-[var(--sm-80px)]
