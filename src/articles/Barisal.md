@@ -1,18 +1,27 @@
 ---
 title: Barisal
-
+author: Rasaf Ibrahim
 date: 2021-08-26
-
-img: https://images.unsplash.com/photo-1629910408439-ab23292c73ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80
-
-
-
-summary: Barisal, officially known as Barishal, is a major city that lies on the banks of the Kirtankhola river in south-central Bangladesh. It is the largest city and the administrative headquarter of both Barisal District and Barisal Division. It is one of the oldest municipalities and river ports of the country. Barisal municipality was established in the year 1876 during the British rule in India and upgraded to City Corporation on 25 July 2002. The city consists of 30 wards and 50 mahallas with a population of 328,278 according to the 2011 national census and with the voter of about 2.48 lakhs according to the 2018 voter list of city election. The area of the city is 58 square km.
-
+img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/barisal-1.png
+imgAlt: barisal
+summary: Barisal, officially known as Barishal, is a major city that lies on the
+  banks of the Kirtankhola river in south-central Bangladesh. It is the largest
+  city and the administrative headquarter of both Barisal District and Barisal
+  Division. It is one of the oldest municipalities and river ports of the
+  country. Barisal municipality was established in the year 1876 during the
+  British rule in India and upgraded to City Corporation on 25 July 2002. The
+  city consists of 30 wards and 50 mahallas with a population of 328,278
+  according to the 2011 national census and with the voter of about 2.48 lakhs
+  according to the 2018 voter list of city election. The area of the city is 58
+  square km.
 ---
-
-
 Barisal, officially known as Barishal, is a major city that lies on the banks of the Kirtankhola river in south-central Bangladesh. It is the largest city and the administrative headquarter of both Barisal District and Barisal Division. It is one of the oldest municipalities and river ports of the country. Barisal municipality was established in the year 1876 during the British rule in India and upgraded to City Corporation on 25 July 2002. The city consists of 30 wards and 50 mahallas with a population of 328,278 according to the 2011 national census and with the voter of about 2.48 lakhs according to the 2018 voter list of city election. The area of the city is 58 square km.
+
+
+
+<p class="-post-img-wrapper-lg"><img class="-post-img-md" src="https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/barisal-2.png" alt="barisal"></p>
+
+
 
 **Economy**
 
@@ -21,7 +30,6 @@ Barisal is a rice producing center of Bangladesh. Balam (a kind of basmati) is t
 Coconut is a common fruit as the city is located near the coast. Barisal is also known for its hog plum.
 
 Exports: agricultural products, hilsha fish, medicine, empty gelatine capsules, anchor cement.
-
 
 **Transportation**
 
