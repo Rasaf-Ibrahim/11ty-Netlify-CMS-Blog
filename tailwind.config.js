@@ -12,7 +12,11 @@ purge: [
   './src/**/**/*.{html,liquid,njk,js}',
   './src/**/**/**/*.{html,liquid,njk,js}',
   './src/**/**/**/**/*.{html,liquid,njk,js}',
-  './src/**/**/**/**/**/*.{html,liquid,njk,js}'
+  './src/**/**/**/**/**/*.{html,liquid,njk,js}',
+
+  // markdown files
+
+  './src/articles/*.md'
 
 
 ],
@@ -33,6 +37,8 @@ purge: [
 
 
   darkMode: 'class', // or 'media' or 'class'
+
+
 
   theme: {
 
