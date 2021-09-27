@@ -1480,6 +1480,10 @@ p{
   align-items:center;
 }
 
+.justify-center{
+  justify-content:center;
+}
+
 .justify-between{
   justify-content:space-between;
 }
@@ -1536,6 +1540,10 @@ p{
 
 .rounded-full{
   border-radius:9999px;
+}
+
+.rounded{
+  border-radius:0.25rem;
 }
 
 .bg-s-t1a1{
@@ -2054,6 +2062,34 @@ p{
   }
 }
 
+._m-32px{
+  margin:var(--sm-32px);
+}
+
+@media (min-width: 688px){
+  ._m-32px{
+    margin:var(--md-32px);
+  }
+}
+
+@media (min-width: 1024px){
+  ._m-32px{
+    margin:var(--lg-32px);
+  }
+}
+
+@media (min-width: 1360px){
+  ._m-32px{
+    margin:var(--xl-32px);
+  }
+}
+
+@media (min-width: 1696px){
+  ._m-32px{
+    margin:var(--twoXl-32px);
+  }
+}
+
 ._mt-32px{
   margin-top:var(--sm-32px);
 }
@@ -2135,6 +2171,62 @@ p{
 @media (min-width: 1696px){
   ._p-8px{
     padding:var(--twoXl-8px);
+  }
+}
+
+._p-12px{
+  padding:var(--sm-12px);
+}
+
+@media (min-width: 688px){
+  ._p-12px{
+    padding:var(--md-12px);
+  }
+}
+
+@media (min-width: 1024px){
+  ._p-12px{
+    padding:var(--lg-12px);
+  }
+}
+
+@media (min-width: 1360px){
+  ._p-12px{
+    padding:var(--xl-12px);
+  }
+}
+
+@media (min-width: 1696px){
+  ._p-12px{
+    padding:var(--twoXl-12px);
+  }
+}
+
+._p-16px{
+  padding:var(--sm-16px);
+}
+
+@media (min-width: 688px){
+  ._p-16px{
+    padding:var(--md-16px);
+  }
+}
+
+@media (min-width: 1024px){
+  ._p-16px{
+    padding:var(--lg-16px);
+  }
+}
+
+@media (min-width: 1360px){
+  ._p-16px{
+    padding:var(--xl-16px);
+  }
+}
+
+@media (min-width: 1696px){
+  ._p-16px{
+    padding:var(--twoXl-16px);
   }
 }
 
@@ -2348,6 +2440,10 @@ You can make more class like this just by changing the max-weight size. */
 
 .hover\:bg-s-t1a5:hover{
   background-color:var(--surface-type-1-alpha-5);
+}
+
+.hover\:underline:hover{
+  text-decoration:underline;
 }
 
 .group:hover .group-hover\:underline{
