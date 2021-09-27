@@ -3,7 +3,7 @@ title: Cumilla
 
 date: 2021-01-26
 
-img: https://images.unsplash.com/photo-1629910408439-ab23292c73ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80
+img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/cumilla-1.png
 
 
 
@@ -14,6 +14,10 @@ summary: Cumilla is a city in the Chittagong Division of Bangladesh, located alo
 
 
 Cumilla is a city in the Chittagong Division of Bangladesh, located along the Dhaka-Chittagong Highway. It is the administrative centre of the Cumilla District, part of the Chittagong Division. The name Cumilla was derived from Komolangko, meaning the pond of lotus.
+
+
+<p class="-post-img-wrapper-lg"><img class="-post-img-md" src="https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/cumilla-2.png" alt="cumila"></p>
+
 
 
 **Economy**

@@ -3,7 +3,7 @@ title: Rangpur
 
 date: 2021-08-02
 
-img: https://images.unsplash.com/photo-1629822097366-0ed4b086f080?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80
+img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/rangpur-1.png
 
 
 
@@ -13,6 +13,10 @@ summary: Rangpur is one of the major cities in Bangladesh and Rangpur Division. 
 Rangpur is one of the major cities in Bangladesh and Rangpur Division. Rangpur was declared a district headquarters on December 16, 1769, and established as a municipality in 1869, making it one of the oldest municipalities in Bangladesh. The municipal office building was erected in 1892 under the precedence Raja Janaki Ballav, Senior Chairman of the municipality. In 1890, the Shyamasundari canal was excavated for the improvement of the town. Sharfuddin Ahmed Jhantu was first mayor of Rangpur City Corporation.
 
 The city is located in the northwestern part of Bangladesh. Begum Rokeya University is situated in the southern part of the city. Previously, Rangpur was the headquarters of the Greater Rangpur district. Later, the Greater Rangpur district was broken down into the Gaibandha, Kurigram, Lalmonirhat, Nilphamari and Rangpur districts. In the greater Rangpur region, little economic development took place until the 1990s, mainly because of the yearly flooding the region used to see before the building of the Teesta Barrage. Coal is found near this district. There is a large military cantonment in the vicinity of the city, along with a Ghagot park (under military surveillance), in addition to the famous Carmichael College and Rangpur Zoo in the city. Rangpur is also famous for its handicrafts industry like Shataranji which is recently declared as a GI product of Bangladesh.
+
+
+
+<p class="-post-img-wrapper-lg"><img class="-post-img-md" src="https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/rangpur-2.png" alt="rangpur"></p>
 
 
 **Economy**

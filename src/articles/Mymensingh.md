@@ -2,7 +2,7 @@
 title: Mymensingh
 
 date: 2021-08-31
-img: https://images.unsplash.com/photo-1629822097366-0ed4b086f080?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80
+img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/mymensingh-1.png
 
 
 
@@ -16,6 +16,8 @@ Border area cover Himalayan state of India, Gazipur District, Tangail District, 
 
 The cadet college established in Tangail in 1963 was called Momenshahi Cadet College. The city is known for educational institutions. Other landmark institutions include Momenshahi Cantonment, Mymensingh, once the HQ of 19th Infantry Division and now the Headquarters of ARTDOC.
 
+
+<p class="-post-img-wrapper-lg"><img class="-post-img-md" src="https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/mymensingh-2.png" alt="mymensingh"></p>
 
 
 **Economy**

@@ -3,8 +3,7 @@ title: Bogura
 
 date: 2021-08-27
 
-img: https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80
-
+img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/bogura-1.png
 
 
 summary: Bogura is a major city located in the Bogura District, Rajshahi Division, Bangladesh. It is a major commercial hub in Northern Bangladesh. The Bogura bridge connects the Rajshahi Division and Rangpur Division. It is the second largest city in Rajshahi Division in metropolitan.
@@ -17,6 +16,9 @@ Bogura is named after Nasiruddin Bughra Khan, the Governor of Bengal from 1279 t
 
 
 The city is approximately 69.56 km2 (26.86 sq mi) and is divided into 21 wards. Bogura has a population of around 540,000 people. Since it is one of the oldest cities in Bengal, Bogura is famous for its many ancient Buddhist stupas, Hindu temples, and ancient palaces of Buddhist kings and Muslim sultans.
+
+
+<p class="-post-img-wrapper-lg"><img class="-post-img-md" src="https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/bogura-2.png" alt="bogura"></p>
 
 
 **Economy**

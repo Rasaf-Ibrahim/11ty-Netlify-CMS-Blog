@@ -3,8 +3,7 @@ title: Sylhet
 
 date: 2021-08-27
 
-img: https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80
-
+img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/sylhet-1.png
 
 
 summary: The Sylhet Metropolitan Area is one of Bangladesh's main business centers. Sylhet's economy is closely linked with the Bangladeshi diaspora, especially the British Bangladeshi community. The city receives a significant portion of the country's annual remittances, which have driven growth in real estate and construction. A number of shopping centers, restaurants and hotels have opened as a result.
@@ -15,6 +14,10 @@ The Sylhet Metropolitan Area is one of Bangladesh's main business centers. Sylhe
 Sylhet's hinterland plays a vital role in the economy of Bangladesh. It is home to the country's largest natural gas fields, sole crude oil field, largest tea plantations, rubber, palm oil, cane, agarwood and citrus farms. Rice production in the region is one of the country's highest. Heavy industries include power plants, fertilizer plants, cement plants and liquefied petroleum gas plants. Other major industries in the region include ceramics, machinery and equipment, ready-made garments and pharmaceuticals. Most of the tea production in Bangladesh is based around Sylhet, and the industry also has significant exports. The area is also known for producing oranges and other similar fruits. One of these fruit is called "Satkara" which is a variety of grapefruit that can be used in pickles and even as an ingredient in traditional Sylheti curry dishes.
 
 Two Bangladeshi finance ministers from the city have been elected to the Jatiyo Sangshad: Saifur Rahman of the Bangladesh Nationalist Party and Abul Maal Abdul Muhith of the Awami League. The present foreign affairs minister DR. A K Abdul Momen who is younger brother of the former finance minister Abdul Muhith represents the Sylhet-1 seat in parliament.
+
+
+
+<p class="-post-img-wrapper-lg"><img class="-post-img-md" src="https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/sylhet-2.png" alt="sylhet"></p>
 
 
 **Economy**

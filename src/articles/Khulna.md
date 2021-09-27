@@ -3,7 +3,7 @@ title: Khulna
 
 date: 2021-08-27
 
-img: https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80
+img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/khulna-1.png
 
 
 
@@ -17,6 +17,9 @@ Khulna  is the third largest city in Bangladesh after Dhaka and Chittagong. It i
 Khulna stands on the bank of the Rupsha and Bhairab Rivers. A centre of Bangladeshi industry, it hosts many national companies. Khulna is served by Port of Mongla (the second-largest seaport in the country), and is one of two principal naval-command centres hosting the Bangladesh Navy. The navy base BNS Titumir is in the city.
 
 A colonial steamboat service, including the Tern, Osrich and Lepcha, continues to operate on the river route to the city. Khulna is considered the gateway to the Sundarbans, the world's largest mangrove forest and home of the Royal Bengal tiger. It is north of the Mosque City of Bagerhat, a UNESCO World Heritage Site.
+
+
+<p class="-post-img-wrapper-lg"><img class="-post-img-md" src="https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/khulna-2.png" alt="khulna"></p>
 
 
 **Economy**

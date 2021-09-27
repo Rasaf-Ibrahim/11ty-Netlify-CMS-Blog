@@ -3,7 +3,7 @@ title: Chittagong
 
 date: 2021-08-28
 
-img: https://images.unsplash.com/photo-1629910408439-ab23292c73ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80
+img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/chittagong-1.png
 
 
 
@@ -20,6 +20,9 @@ Chittagong is an ancient seaport due to its natural harbor. It was noted as one 
 During the 16th century, Portuguese historian João de Barros described Chittagong as "the most famous and wealthy city of the Kingdom of Bengal". Portuguese Chittagong was the first European colonial settlement in Bengal. A naval battle in 1666 between the Mughal Empire and Arakan resulted in the expulsion of Portuguese pirates. British colonization began in 1760 when the Nawab of Bengal ceded Chittagong to the East India Company. During World War II, Chittagong was a base for Allied Forces engaged in the Burma Campaign. The port city began to expand and industrialize during the 1940s, particularly after the Partition of British India. During the Bangladesh Liberation War in 1971, Chittagong was the site of the country's declaration of independence. General Zia declared the independent of Bangladesh began Bangabandhu Shaikh Mujibur Rahman from Bangladesh Betar Kalur Ghat, Chittagong Station.
 
 Chittagong has a high degree of religious and ethnic diversity among Bangladeshi cities, despite having an overwhelming Bengali Muslim majority. Minorities include Bengali Hindus, Bengali Christians, Bengali Buddhists, the Chakmas, the Marmas, the Tripuras The Sawtals The Garoos and the Bohmong.
+
+
+<p class="-post-img-wrapper-lg"><img class="-post-img-md" src="https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/chittagong-2.png" alt="chittagong"></p>
 
 
 **Economy**

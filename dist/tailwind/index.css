@@ -1835,6 +1835,19 @@ p{
   }
 }
 
+.-post-img-md{
+  height:14rem;
+  width:100%;
+  -o-object-fit:cover;
+     object-fit:cover;
+}
+
+@media (min-width: 688px){
+  .-post-img-md{
+    height:17rem;
+  }
+}
+
 .-post-img-lg{
   height:14rem;
   width:100%;
@@ -2038,6 +2051,62 @@ p{
 @media (min-width: 1696px){
   ._m-20px{
     margin:var(--twoXl-20px);
+  }
+}
+
+._mt-32px{
+  margin-top:var(--sm-32px);
+}
+
+@media (min-width: 688px){
+  ._mt-32px{
+    margin-top:var(--md-32px);
+  }
+}
+
+@media (min-width: 1024px){
+  ._mt-32px{
+    margin-top:var(--lg-32px);
+  }
+}
+
+@media (min-width: 1360px){
+  ._mt-32px{
+    margin-top:var(--xl-32px);
+  }
+}
+
+@media (min-width: 1696px){
+  ._mt-32px{
+    margin-top:var(--twoXl-32px);
+  }
+}
+
+._mr-8px{
+  margin-right:var(--sm-8px);
+}
+
+@media (min-width: 688px){
+  ._mr-8px{
+    margin-right:var(--md-8px);
+  }
+}
+
+@media (min-width: 1024px){
+  ._mr-8px{
+    margin-right:var(--lg-8px);
+  }
+}
+
+@media (min-width: 1360px){
+  ._mr-8px{
+    margin-right:var(--xl-8px);
+  }
+}
+
+@media (min-width: 1696px){
+  ._mr-8px{
+    margin-right:var(--twoXl-8px);
   }
 }
 
@@ -2279,6 +2348,10 @@ You can make more class like this just by changing the max-weight size. */
 
 .hover\:bg-s-t1a5:hover{
   background-color:var(--surface-type-1-alpha-5);
+}
+
+.group:hover .group-hover\:underline{
+  text-decoration:underline;
 }
 
 @media (min-width: 688px){

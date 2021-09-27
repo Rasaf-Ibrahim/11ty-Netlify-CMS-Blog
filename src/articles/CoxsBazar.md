@@ -3,7 +3,7 @@ title: Cox's Bazar
 
 date: 2021-01-26
 
-img: https://images.unsplash.com/photo-1629910408439-ab23292c73ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80
+img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/coxsBazar-1.png
 
 
 
@@ -18,6 +18,9 @@ Cox's Bazar is a city, fishing port, tourism centre, and district headquarters i
 The modern Cox's Bazar derives its name from Captain Hiram Cox, an officer of the British East India Company, a Superintendent of Palongkee outpost. To commemorate his role in refugee rehabilitation work, a market was established and named after him.
 
 The city covers an area of 23.4 km2 (9.0 sq mi) with 27 mahallas and 9 wards and as of 2011 had a population of 265,500. Cox's Bazar is connected by road and air with Chittagong.
+
+
+<p class="-post-img-wrapper-lg"><img class="-post-img-md" src="https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/coxsBazar-2.png" alt="coxsBazar"></p>
 
 
 **Economy**

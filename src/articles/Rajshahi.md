@@ -3,8 +3,7 @@ title: Rajshahi
 
 date: 2021-08-01
 
-img: https://images.unsplash.com/photo-1629822097366-0ed4b086f080?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80
-
+img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/rajshahi-1.png
 
 summary: Rajshahi  is a metropolitan city, and a major urban, commercial and educational centre of Bangladesh. It is also the administrative seat of eponymous division and district.  Located on the north bank of the Padma River, near the Bangladesh-India border, the city has a population of over 763,952 residents. The city is surrounded by the satellite towns of Nowhata and Katakhali, which together build an urban agglomeration of about 1 million population. Rajshahi is often considering the most clean and green among the cities of Bangladesh.
 
@@ -18,6 +17,7 @@ Modern Rajshahi lies in the ancient region of Pundravardhana. The foundation of 
 Rajshahi is an important administrative, educational, cultural and business centre in Bangladesh today. It is a historic center of silk production. Varendra Research Museum, the oldest of its kind in Bangladesh, is located in the city. The city is home to many renowned educational institutions of Bangladesh. The head office of Rajshahi Agricultural Development Bank and Barind Multipurpose Development Authority (BMDA) is situated in the city. Rajshahi is served by the Shah Makhdum Airport.
 
 
+<p class="-post-img-wrapper-lg"><img class="-post-img-md" src="https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/rajshahi-2.png" alt="rajshahi"></p>
 
 **Economy**
 
