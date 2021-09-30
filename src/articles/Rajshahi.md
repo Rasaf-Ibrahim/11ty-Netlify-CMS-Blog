@@ -1,7 +1,7 @@
 ---
 title: Rajshahi
 
-date: 2021-08-01
+date: 2021-09-11
 
 img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/rajshahi-1.png
 

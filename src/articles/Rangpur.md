@@ -1,7 +1,7 @@
 ---
 title: Rangpur 
 
-date: 2021-08-02
+date: 2021-09-07
 
 img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/rangpur-1.png
 

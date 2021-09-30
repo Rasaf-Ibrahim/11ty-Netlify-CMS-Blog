@@ -1,4 +1,4 @@
-/* Note: On other section's custom class name, we are using a hyphen as the first character. But in tailwind, hyphen before any spacing class means a negative value, that's why we are using two hyphens at the start of the class name instead of a hyphen in the class name. */
+/* Note: On other section's custom class name, we are using a hyphen as the first character. But in tailwind, hyphen before any spacing class means a negative value, that's why we are using underscore at the start of the class name instead of a hyphen. */
 
 
 

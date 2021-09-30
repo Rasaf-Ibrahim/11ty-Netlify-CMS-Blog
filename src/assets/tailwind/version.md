@@ -1,10 +1,8 @@
 
 
-# Current Version: 2.3
+# Current Version: 2.7
 
-
-
-##   Release Notes (Difference with the version 2.1)
+##   Release Notes (Difference with the version 2.6)
 
 
 

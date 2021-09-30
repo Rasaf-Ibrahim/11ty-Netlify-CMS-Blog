@@ -43,7 +43,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#prefer_unitless_num
 
 /* spacing (responsive) */
 
-/* Note: On other section's custom class name, we are using a hyphen as the first character. But in tailwind, hyphen before any spacing class means a negative value, that's why we are using two hyphens at the start of the class name instead of a hyphen in the class name. */
+/* Note: On other section's custom class name, we are using a hyphen as the first character. But in tailwind, hyphen before any spacing class means a negative value, that's why we are using underscore at the start of the class name instead of a hyphen. */
 
 /* Global Variable */
 
@@ -866,13 +866,6 @@ video {
   --tw-ring-offset-shadow:0 0 #0000;
   --tw-ring-shadow:0 0 #0000;
   --tw-shadow:0 0 #0000;
-  --tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);
-  --tw-ring-offset-width:0px;
-  --tw-ring-offset-color:#fff;
-  --tw-ring-color:rgba(59, 130, 246, 0.5);
-  --tw-ring-offset-shadow:0 0 #0000;
-  --tw-ring-shadow:0 0 #0000;
-  --tw-shadow:0 0 #0000;
   --tw-blur:var(--tw-empty,/*!*/ /*!*/);
   --tw-brightness:var(--tw-empty,/*!*/ /*!*/);
   --tw-contrast:var(--tw-empty,/*!*/ /*!*/);
@@ -1546,12 +1539,12 @@ p{
   border-radius:0.25rem;
 }
 
-.bg-s-t1a1{
-  background-color:var(--surface-type-1-alpha-1);
-}
-
 .bg-s-t1a3{
   background-color:var(--surface-type-1-alpha-3);
+}
+
+.bg-s-t1a1{
+  background-color:var(--surface-type-1-alpha-1);
 }
 
 .bg-s-t1a5{
@@ -1620,20 +1613,14 @@ p{
   opacity:0;
 }
 
-.shadow-lg{
-  --tw-shadow:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow{
   --tw-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.ring{
-  --tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-  --tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-  box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+.shadow-lg{
+  --tw-shadow:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .filter{
@@ -1645,14 +1632,8 @@ p{
 .-btn{
   cursor:pointer;
   border-radius:0.25rem;
-  padding-top:0.5rem;
-  padding-bottom:0.5rem;
-  padding-left:1rem;
-  padding-right:1rem;
   text-align:center;
-  font-weight:600;
-  text-transform:uppercase;
-  --tw-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --tw-shadow:0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   outline:2px solid transparent;
   outline-offset:2px;
@@ -1665,35 +1646,28 @@ p{
   transition-timing-function:cubic-bezier(0, 0, 0.2, 1);
 }
 
-.-btn:hover{
-  --tw-shadow:0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .-btn:focus{
   outline:2px solid transparent;
   outline-offset:2px;
 }
 
-/* border */
+/* Note (uppercase):
 
-.-btn-border-color-t1l1{
-  border-width:1px;
-  border-color:var(--brand-type-1-layer-1-alpha-1);
-  background-color:transparent;
-  color:var(--brand-type-1-layer-1-alpha-1);
-}
+   Don't use uppercase class here. In the html <button> tag, use uppercase class or write the button's name in uppercase. (Bootstrap is also not using  uppercase as a default option!)
+   */
 
-.-btn-border-color-t1l1:hover{
-  background-color:var(--brand-type-1-layer-1-alpha-1);
-  color:var(--layer-2-alpha-1);
-}
+/* Note (font weight):
 
-/* border */
+   Not using any font-weight class (Bootstrap is also not using  uppercase as a default option!)
+   */
 
 /* Button Size */
 
 .-btn-sm{
+  padding-top:0.25rem;
+  padding-bottom:0.25rem;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
   font-size:0.75rem;
   line-height:1.5;
 }
@@ -1715,6 +1689,33 @@ p{
     font-size:0.9375rem;
   }
 }
+
+/* Note: 
+
+The following padding values are copied from bootstrap.  
+
+The font-size is value is not exactly same with bootstrap but close, we are using responsive value for font-size. For small button, bootstrap is using 0.875rem, for medium size/default button, bootstrap is using 1rem and for big button, bootstrap is using 1.25rem.
+*/
+
+/* border */
+
+.-btn-border-color-t1l1{
+  border-width:1px;
+  border-color:var(--brand-type-1-layer-1-alpha-1);
+  background-color:transparent;
+  color:var(--brand-type-1-layer-1-alpha-1);
+}
+
+.-btn-border-color-t1l1:hover{
+  background-color:var(--brand-type-1-layer-1-alpha-1);
+  color:var(--layer-2-alpha-1);
+}
+
+/* border */
+
+/* type-1 */
+
+/* type-2 */
 
 /* Scale up and down on active state */
 
@@ -1840,19 +1841,6 @@ p{
     .-post-img-wrapper-lg{
       max-width:34rem;
     }
-  }
-}
-
-.-post-img-md{
-  height:14rem;
-  width:100%;
-  -o-object-fit:cover;
-     object-fit:cover;
-}
-
-@media (min-width: 688px){
-  .-post-img-md{
-    height:17rem;
   }
 }
 
@@ -2202,34 +2190,6 @@ p{
   }
 }
 
-._p-16px{
-  padding:var(--sm-16px);
-}
-
-@media (min-width: 688px){
-  ._p-16px{
-    padding:var(--md-16px);
-  }
-}
-
-@media (min-width: 1024px){
-  ._p-16px{
-    padding:var(--lg-16px);
-  }
-}
-
-@media (min-width: 1360px){
-  ._p-16px{
-    padding:var(--xl-16px);
-  }
-}
-
-@media (min-width: 1696px){
-  ._p-16px{
-    padding:var(--twoXl-16px);
-  }
-}
-
 ._p-20px{
   padding:var(--sm-20px);
 }
@@ -2440,10 +2400,6 @@ You can make more class like this just by changing the max-weight size. */
 
 .hover\:bg-s-t1a5:hover{
   background-color:var(--surface-type-1-alpha-5);
-}
-
-.hover\:underline:hover{
-  text-decoration:underline;
 }
 
 .group:hover .group-hover\:underline{

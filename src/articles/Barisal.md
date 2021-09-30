@@ -1,7 +1,7 @@
 ---
 title: Barisal
 author: Rasaf Ibrahim
-date: 2021-08-26
+date: 2021-09-10
 img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/barisal-1.png
 imgAlt: barisal
 summary: Barisal, officially known as Barishal, is a major city that lies on the

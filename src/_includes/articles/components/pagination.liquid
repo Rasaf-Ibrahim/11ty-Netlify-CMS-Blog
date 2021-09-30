@@ -37,6 +37,24 @@
     <!-- Previous, Next First, Last Page Wrapper -->
     <div class="space-x-[8px] lg:space-x-[12px]">
     
+     <!-- First Page -->
+     <span>
+      {% if page.url != pagination.href.first %}
+          <a href="{{ pagination.href.first }}"
+          class="-btn -btn-border-color-t1l1 -btn-sm -btn-scale-down">
+          First Page</a>
+      {% endif %}
+    </span>
+    
+    <!-- Last Page -->
+    <span>
+      {% if page.url != pagination.href.last %}
+          <a href="{{ pagination.href.last }}"
+          class="-btn -btn-border-color-t1l1 -btn-sm -btn-scale-down">
+          Last Page</a>
+      {% endif %}
+    </span>
+
     
       <!-- Previous Page -->
     <span>
@@ -57,24 +75,7 @@
         {% endif %} 
     </span>
     
-    <!-- First Page -->
-    <span>
-      {% if page.url != pagination.href.first %}
-          <a href="{{ pagination.href.first }}"
-          class="-btn -btn-border-color-t1l1 -btn-sm -btn-scale-down">
-          First Page</a>
-      {% endif %}
-    </span>
-    
-    <!-- Last Page -->
-    <span>
-      {% if page.url != pagination.href.last %}
-          <a href="{{ pagination.href.last }}"
-          class="-btn -btn-border-color-t1l1 -btn-sm -btn-scale-down">
-          Last Page</a>
-      {% endif %}
-    </span>
-    
+   
     
     </div> <!-- End: Previous, Next First, Last Page Wrapper -->
     

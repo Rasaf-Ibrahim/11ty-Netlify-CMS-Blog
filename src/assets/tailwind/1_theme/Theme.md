@@ -18,6 +18,8 @@
 >
 >[🔖 Default Text Color](#default-text-color)
 >
+>[🔖 Layer Concept](#layer-concept)
+>
 >[🔖 How to switch to the dark mode](#how-to-switch-to-the-dark-mode)
 >
 >[🔖 Example of almost all the classes](#example-of-almost-all-the-classes)
@@ -25,7 +27,7 @@
 
 
 &nbsp;
-*** 
+***
 &nbsp;
 
 ## Abbreviation
@@ -53,7 +55,7 @@
 
 
 &nbsp;
-*** 
+***
 &nbsp;
 
 ## Surface Color
@@ -132,7 +134,7 @@ Surface color can also be called the **primary color** or the **main color**.
 -  When we use the other surface color classes on the main surface color, we can use `shadow-sm` or `shadow` class with them. 
   
 -  Shadow will help to stand out `bg-s-t1a2`, `bg-s-t1a3`, etc  over the main (`bg-s-t1a1`) surface color .
-  
+
 
 **Example**
 
@@ -184,7 +186,7 @@ Surface color can also be called the **primary color** or the **main color**.
 | text-s-t2a3 | Surface color (Type 2) with alpha channel's value no.3 |
 | text-s-t2a4 | Surface color (Type 2) with alpha channel's value no.4 |
 | text-s-t2a5 | Surface color (Type 2) with alpha channel's value no.5 |
-          
+
 
 **Note:**  
 
@@ -194,7 +196,7 @@ Especially, surface text (font) color is needed when you are working with **SVG*
 
 
 &nbsp;
-*** 
+***
 &nbsp;
 
 ## Brand Color
@@ -253,7 +255,7 @@ Brand color can also be called the **Secondary color** or the **Accent color**.
 **Type-2**
 
 | Class Name | Explanation                                          |
-|------------|------------------------------------------------------|
+| ---------- | ---------------------------------------------------- |
 | bg-b-t2a1  | Brand color (Type 2) with alpha channel's value no.1 |
 | bg-b-t2a2  | Brand color (Type 2) with alpha channel's value no.2 |
 | bg-b-t2a3  | Brand color (Type 2) with alpha channel's value no.3 |
@@ -326,11 +328,11 @@ Brand color can also be called the **Secondary color** or the **Accent color**.
 
 
 
-                             
+​                             
 
 
 &nbsp;
-*** 
+***
 &nbsp;
 
 ## Specific Color
@@ -500,7 +502,7 @@ Brand color can also be called the **Secondary color** or the **Accent color**.
 
 
 &nbsp;
-*** 
+***
 &nbsp;
 
 ## Default Text Color
@@ -513,8 +515,6 @@ Brand color can also be called the **Secondary color** or the **Accent color**.
 >[🔖 Layer-1 Classes](#layer-1-classes) 
 >
 >[🔖 Layer-2 Classes](#layer-2-classes) 
->
->[🔖 Layer-1 vs Layer 2 (When to use what)](#layer-1-vs-layer-2-when-to-use-what) 
 >
 
 
@@ -553,32 +553,62 @@ Brand color can also be called the **Secondary color** or the **Accent color**.
 
 
 
+
+
+
+
 &nbsp;
 
-### Layer-1 vs Layer 2 (When to use what)
+## Layer Concept
 
 &nbsp;
 
 
-**Definition**
+&nbsp;
+### Layer-0, Layer-1, Layer-2
 
-- We can consider the `surface` background color as the layer-1 as no color is below that color. 
+&nbsp;
 
-- But `brand`color & `specific` color background color should be considered as layer-2 as `surface` color stays under these colors. 
+**Layer-0**
+
+All website has a main background color. The main background is also called as the  primary color. Here, we are calling it the surface color. So, surface color is actually  the main background color/primary color.  We can consider the surface color as `Layer-0`.
+
+Here, we have also created some variation of surface color by changing the alpha channel's value slightly. The change is very minimal. So, we consider all the variation as `Layer-0` too.  Example:  Suppose, our website's surface color is `bg-s-t1a1` &We have a card on our website. The card's color is a variation of the surface color (`bg-s-t1a3`). The card's color will be considered as `Layer-0`.
 
 
-**When to use what**
+
+**Layer-1**
+
+Suppose, we have a alert on our website. The alert's is not using surface color or any variation of it. Suppose, it's using a specific color(red). Here, the specific color(red) is  on top of the  surface color. So, we will consider the alert's color (specific color) as `Layer-1`
+
+If the alert was using a brand color, it would be the same. The brand color would be on the top of the surface color. So, we would consider the alert's color (brand color) as `Layer-1`.
 
 
-- On the `surface` background color, use the layer-1's classes. Even if we use overlay color over `surface` background color, we need use the layer-1's classes on that.  
 
-- On the `brand` color  `specific` color, use the layer-2's classes.
+**Layer-2**
+
+On the previous example, there was an alert with specific color. The alert's color was considered as `Layer-1` color. 
+
+Now, suppose, on top of the alert, there is button with a brand color. Now, the button color's will be considered as `Layer-2`
+
+
+&nbsp;
+### Layer-1 color vs Layer 2 color (When to use what)
+
+&nbsp;
+
+**Rule of thumb**
+
+
+- On the `surface` background color, use the layer-1's classes. Even if we use variation (different alpha channel's value) of  `surface` background color, we need use the layer-1's classes on top of that.  
+
+- On the top of  `brand` color  `specific` color, use the layer-2's classes.
 
 
 
 **Necessity of the layer-1 & layer-2 text color**
 
-- When the `surface` background color is light, the layer-1 text color provides a dark color. On the contrary, when the 'surface` background color is dark, the layer-1 text color provides a light color. 
+- When the `surface` background color is light, the layer-1 text color provides a dark color. On the contrary, when the `surface` background color is dark, the layer-1 text color provides a light color. 
 
 - When we use the `brand` or `specific` background color over the `surface` color, the background color of `brand` or `specific` is dark if the `surface` color is light and the background color of `brand` or `specific` is light if the `surface` color is dark. 
   
@@ -591,7 +621,7 @@ Brand color can also be called the **Secondary color** or the **Accent color**.
 
 
 &nbsp;
-*** 
+***
 &nbsp;
 
 ## How to switch to the Dark Mode
@@ -641,7 +671,7 @@ Same classes will be used for both the light and the dark mode. Light mode is th
 
 
 &nbsp;
-*** 
+***
 &nbsp;
 
 ## Example of almost all the classes

@@ -9,7 +9,7 @@
 
     <div class="-card-layout-1-3">
     
-        {% for post in collections.articles reversed limit:5 %}
+        {% for post in collections.articles offset:5 reversed %}
 
         
             {% include './articles/components/articles.liquid' %}    
@@ -26,12 +26,12 @@
 
 <span class="_m-32px rounded  _p-12px text-center bg-s-t1a3  shadow ">
 
-    Check out all the 
+    Check out 
 
     <a class="text-b-t1l1a1 font-bold " href="/articles/">
 
 
-   <span>articles</span>
+   <span>all the articles</span>
 
     <span>
         <svg class="w-6 h-6 font-bold "

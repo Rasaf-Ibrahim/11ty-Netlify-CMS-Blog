@@ -1,7 +1,7 @@
 ---
 title: Khulna
 
-date: 2021-08-27
+date: 2021-09-04
 
 img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/khulna-1.png
 

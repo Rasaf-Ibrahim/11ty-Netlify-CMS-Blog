@@ -1,7 +1,7 @@
 ---
 title: Sylhet
 
-date: 2021-08-27
+date: 2021-09-02
 
 img: https://raw.githubusercontent.com/Rasaf99/11ty-Netlify-CMS-Blog/main/img/sylhet-1.png
 

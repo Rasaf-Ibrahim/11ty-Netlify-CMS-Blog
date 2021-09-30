@@ -198,7 +198,7 @@ viewBox="0 0 21.864 21.864"
 
         by Rasaf Ibrahim
       
-        on  Aug 27, 2021
+        on  Sep 09, 2021
             
      </h5>
  
@@ -479,7 +479,13 @@ viewBox="0 0 24 24">
       // 2. Update darkMode in localStorage 
       localStorage.setItem('darkMode', null);
     }
-      
+    
+    //If you want the dark mode to be the default mode for this site, don't comment out the following if condition. But if want the light mode to be the default mode, then comment out the following if condition. (Note: The following condition makes sure to use dark mode only if the browser is  loading the website first time. And after loading the website, if the user changes to the light mode, this if condition will not hamper that preference by changing the mode to dark at the time of reloading or refreshing the website. But if we set dark mode from javascript without the following condition or from html by adding dark class, then every time when we will reload or refresh the website, the website will use dark mode even if the user changed to light mode!.) 
+
+    if (localStorage.getItem("darkMode") === null) {
+      localStorage.setItem('darkMode', 'enabled')
+    }
+   
     
     // check for saved 'darkMode' in localStorage
     let darkMode = localStorage.getItem('darkMode'); 
